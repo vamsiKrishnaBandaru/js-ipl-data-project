@@ -3,15 +3,15 @@ function matchesWonPerTeamPerYear(matchesData = []) {
   if (Array.isArray(matchesData) && matchesData != undefined) {
     matchesData.map((matchesData) => {
 
-      if (teamWon[matchesData.winner] != undefined && teamWon[matchesData.winner][matchesData.season] != undefined) {
-        teamWon[matchesData.winner][matchesData.season] += 1
+      if (teamWon[matchesData.season] != undefined && teamWon[matchesData.season][matchesData.winner] != undefined) {
+        teamWon[matchesData.season][matchesData.winner] += 1
 
-      } else if (teamWon[matchesData.winner] == undefined) {
-        teamWon[matchesData.winner] = {}
-        teamWon[matchesData.winner][matchesData.season] = 1
+      } else if (teamWon[matchesData.season] == undefined) {
+        teamWon[matchesData.season] = {}
+        teamWon[matchesData.season][matchesData.winner] = 1
 
       } else {
-        teamWon[matchesData.winner][matchesData.season] = 1
+        teamWon[matchesData.season][matchesData.winner] = 1
       }
     })
   }

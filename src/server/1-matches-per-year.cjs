@@ -1,17 +1,17 @@
 function matchesPerYear(matchesData = []) {
-    let matchesPlayedPerYear = {}
     if (Array.isArray(matchesData) && matchesData != undefined) {
-        
-        for (let year of matchesData) {
-            let season = year.season
 
-            if (matchesPlayedPerYear[season]) {
-                matchesPlayedPerYear[season] += 1
+        let matchesPlayedPerYear = matchesData.reduce((totalMatches, eachItem) => {
+            if (totalMatches[eachItem.season]) {
+                totalMatches[eachItem.season] += 1
             } else {
-                matchesPlayedPerYear[season] = 1
+                totalMatches[eachItem.season] = 1
             }
-        }
+            return totalMatches
+        }, {})
+        
+        return matchesPlayedPerYear;
     }
-    return matchesPlayedPerYear;
+    return []
 }
 module.exports = matchesPerYear;

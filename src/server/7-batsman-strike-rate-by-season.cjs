@@ -1,6 +1,6 @@
 function batsmanStrikeRateBySeason(matchesData = [], deliveriesData = [], batsmanName) {
     //season and Ids
-    if (Array.isArray(matchesData) && Array.isArray(deliveriesData) && typeof(batsmanName) == "string") {
+    if (Array.isArray(matchesData) && Array.isArray(deliveriesData) && typeof (batsmanName) == "string") {
         let matchIds = matchesData.reduce((output, matchsData) => {
 
             if (output[matchsData.season]) {
@@ -12,7 +12,6 @@ function batsmanStrikeRateBySeason(matchesData = [], deliveriesData = [], batsma
             return output;
         }, {})
 
-        // Filtered 
         let playerDataBySeason = Object.keys(matchIds).reduce((playerDetails, matchsData) => {
 
             playerDetails[matchsData] = deliveriesData.filter((batingData) => {
@@ -44,13 +43,20 @@ function batsmanStrikeRateBySeason(matchesData = [], deliveriesData = [], batsma
 
         let batsmanDataBySeason = Object.entries(playerDataBySeason).map((data) => {
             return {
-                'season': data[0], 'playerData': Object.entries(data[1]).reduce((output, data) => {
+                'season': data[0],
+                'playerName': Object.entries(data[1]).reduce((output, data) => {
+                    if (data[0] == batsmanName) {
+                        output[data[0]] = data[1]
+                    }
+                    return output
+                })[0],
+                'playerData': Object.entries(data[1]).reduce((output, data) => {
 
                     if (data[0] == batsmanName) {
                         output[data[0]] = data[1]
                     }
                     return output
-                })
+                })[1]
             }
         })
         return batsmanDataBySeason

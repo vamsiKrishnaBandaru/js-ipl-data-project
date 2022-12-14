@@ -9,6 +9,7 @@ const top10EconomicalBowlersInyear = require('./src/server/4-top-10-economical-b
 const teamWonTossAndMatch = require('./src/server/5-team-won-toss-and-also-match.cjs')
 const playerOwnMostMatchAwardsBySeason = require('./src/server/6-player-won-highest-number-of-Player-of-Match-awards-by-season.cjs')
 const batsmanStrikeRateBySeason = require('./src/server/7-batsman-strike-rate-by-season.cjs')
+const mostDismissedPlayerByAnother = require('./src/server/8-most-dismissed-player-by-another-player.cjs')
 
 csv()
   .fromFile(matches)
@@ -53,7 +54,7 @@ csv()
           console.log(err);
         }
 
-        // 5 Find the number of times each team won the toss and also won the match
+        // 5 Find the number of times player team won the toss and also won the match
 
 
         let teamWonTossAndMatchOutputData = teamWonTossAndMatch(matchesData)
@@ -63,7 +64,7 @@ csv()
           console.log(err);
         }
 
-        // 6 Find a player who has won the highest number of Player of the Match awards for each season.
+        // 6 Find a player who has won the highest number of Player of the Match awards for player season.
 
         let playerOwnMostMatchAwardsBySeasonOutputData = playerOwnMostMatchAwardsBySeason(matchesData)
         try {
@@ -72,7 +73,7 @@ csv()
           console.log(err);
         }
 
-        //  7 Find the strike rate of a batsman for each season.
+        //  7 Find the strike rate of a batsman for player season.
 
         let batsmanStrikeRateBySeasonOutputData = batsmanStrikeRateBySeason(matchesData, deliveriesData, "MS Dhoni")
         try {
@@ -80,5 +81,15 @@ csv()
         } catch (err) {
           console.log(err);
         }
+
+        // 8 Find the highest number of times one player has been dismissed by another player
+
+        let mostDismissedPlayerByAnotherOutputData = mostDismissedPlayerByAnother(deliveriesData)
+        try {
+          fs.writeFileSync('./src/public/output/8-most-dismissed-player-by-another-player.json', JSON.stringify(mostDismissedPlayerByAnotherOutputData))
+        } catch (err) {
+          console.log(err);
+        }
+
       })
   })

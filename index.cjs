@@ -8,6 +8,7 @@ const extraRunsConcededPerTeamInTheYear = require('./src/server/3-extra-runs-con
 const top10EconomicalBowlersInyear = require('./src/server/4-top-10-economical-bowlers-in-the-year.cjs');
 const teamWonTossAndMatch = require('./src/server/5-team-won-toss-and-also-match.cjs')
 const playerOwnMostMatchAwardsBySeason = require('./src/server/6-player-won-highest-number-of-Player-of-Match-awards-by-season.cjs')
+const batsmanStrikeRateBySeason = require('./src/server/7-batsman-strike-rate-by-season.cjs')
 
 csv()
   .fromFile(matches)
@@ -16,7 +17,7 @@ csv()
       .fromFile(deliveries)
       .then((deliveriesData) => {
 
-        1
+        // 1
 
         let matchesPerYearOutput = matchesPerYear(matchesData);
         try {
@@ -62,7 +63,7 @@ csv()
           console.log(err);
         }
 
-        // 6 Find a player who has won the highest number of Player of the Match awards for each season player_of_match
+        // 6 Find a player who has won the highest number of Player of the Match awards for each season.
 
         let playerOwnMostMatchAwardsBySeasonOutputData = playerOwnMostMatchAwardsBySeason(matchesData)
         try {
@@ -71,6 +72,13 @@ csv()
           console.log(err);
         }
 
+        //  7 Find the strike rate of a batsman for each season.
 
+        let batsmanStrikeRateBySeasonOutputData = batsmanStrikeRateBySeason(matchesData, deliveriesData, "MS Dhoni")
+        try {
+          fs.writeFileSync('./src/public/output/7-batsman-strike-rate-by-season.json', JSON.stringify(batsmanStrikeRateBySeasonOutputData))
+        } catch (err) {
+          console.log(err);
+        }
       })
   })

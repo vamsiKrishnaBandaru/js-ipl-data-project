@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "season": "2008",
+    "playerData": [
+      "SC Ganguly",
+      {
+        "totalRuns": 349,
+        "totalBalls": 307,
+        "strikeRate": 113.68
+      }
+    ]
+  },
+  {
+    "season": "2009",
+    "playerData": [
+      "ST Jayasuriya",
+      {
+        "totalRuns": 221,
+        "totalBalls": 192,
+        "strikeRate": 115.1
+      }
+    ]
+  },
+  {
+    "season": "2010",
+    "playerData": [
+      "MK Tiwary",
+      {
+        "totalRuns": 237,
+        "totalBalls": 186,
+        "strikeRate": 127.42
+      }
+    ]
+  },
+  {
+    "season": "2011",
+    "playerData": [
+      "S Anirudha",
+      {
+        "totalRuns": 83,
+        "totalBalls": 74,
+        "strikeRate": 112.16
+      }
+    ]
+  },
+  {
+    "season": "2012",
+    "playerData": [
+      "F du Plessis",
+      {
+        "totalRuns": 398,
+        "totalBalls": 304,
+        "strikeRate": 130.92
+      }
+    ]
+  },
+  {
+    "season": "2013",
+    "playerData": [
+      "UBT Chand",
+      {
+        "totalRuns": 158,
+        "totalBalls": 158,
+        "strikeRate": 100
+      }
+    ]
+  },
+  {
+    "season": "2014",
+    "playerData": [
+      "G Gambhir",
+      {
+        "totalRuns": 335,
+        "totalBalls": 293,
+        "strikeRate": 114.33
+      }
+    ]
+  },
+  {
+    "season": "2015",
+    "playerData": [
+      "RG Sharma",
+      {
+        "totalRuns": 482,
+        "totalBalls": 333,
+        "strikeRate": 144.74
+      }
+    ]
+  },
+  {
+    "season": "2016",
+    "playerData": [
+      "LMP Simmons",
+      {
+        "totalRuns": 8,
+        "totalBalls": 8,
+        "strikeRate": 100
+      }
+    ]
+  },
+  {
+    "season": "2017",
+    "playerData": [
+      "DA Warner",
+      {
+        "totalRuns": 641,
+        "totalBalls": 452,
+        "strikeRate": 141.81
+      }
+    ]
+  }
+]

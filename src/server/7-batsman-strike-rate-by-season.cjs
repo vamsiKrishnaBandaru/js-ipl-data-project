@@ -1,6 +1,6 @@
-function batsmanStrikeRateBySeason(matchesData = [], deliveriesData = [], batsmanName = " ") {
+function batsmanStrikeRateBySeason(matchesData = [], deliveriesData = [], batsmanName) {
     //season and Ids
-    if (Array.isArray(matchesData) && Array.isArray(deliveriesData) && typeof (batsmanName) != "string") {
+    if (Array.isArray(matchesData) && Array.isArray(deliveriesData) && typeof(batsmanName) == "string") {
         let matchIds = matchesData.reduce((output, matchsData) => {
 
             if (output[matchsData.season]) {

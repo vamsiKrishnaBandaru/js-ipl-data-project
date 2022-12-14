@@ -6,14 +6,14 @@ const matchesPerYear = require('./src/server/1-matches-per-year.cjs')
 const matchesWonPerTeamPerYear = require('./src/server/2-matches-won-per-team-per-year.cjs')
 const extraRunsConcededPerTeamInTheYear = require('./src/server/3-extra-runs-conceded-per-team-in-the-year.cjs')
 const top10EconomicalBowlersInyear = require('./src/server/4-top-10-economical-bowlers-in-the-year.cjs');
-
+const teamWonTossAndMatch = require('./src/server/5-team-won-toss-and-also-match.cjs')
 csv()
   .fromFile(matches)
   .then((matchesData) => {
     csv()
       .fromFile(deliveries)
       .then((deliveriesData) => {
-        
+
         // 1
 
         let matchesPerYearOutput = matchesPerYear(matchesData);
@@ -46,6 +46,16 @@ csv()
         let top10EconomicalBowlersInyearOutputData = top10EconomicalBowlersInyear(matchesData, deliveriesData, 2015)
         try {
           fs.writeFileSync('./src/public/output/4-top-10-economical-bowlers-in-the-year.json', JSON.stringify(top10EconomicalBowlersInyearOutputData))
+        } catch (err) {
+          console.log(err);
+        }
+
+        // 5 Find the number of times each team won the toss and also won the match
+
+
+        let teamWonTossAndMatchOutputData = teamWonTossAndMatch(matchesData)
+        try {
+          fs.writeFileSync('./src/public/output/5-team-won-toss-and-also-match.json', JSON.stringify(teamWonTossAndMatchOutputData))
         } catch (err) {
           console.log(err);
         }

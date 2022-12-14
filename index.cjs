@@ -7,6 +7,8 @@ const matchesWonPerTeamPerYear = require('./src/server/2-matches-won-per-team-pe
 const extraRunsConcededPerTeamInTheYear = require('./src/server/3-extra-runs-conceded-per-team-in-the-year.cjs')
 const top10EconomicalBowlersInyear = require('./src/server/4-top-10-economical-bowlers-in-the-year.cjs');
 const teamWonTossAndMatch = require('./src/server/5-team-won-toss-and-also-match.cjs')
+const playerOwnMostMatchAwardsBySeason = require('./src/server/6-player-won-highest-number-of-Player-of-Match-awards-by-season.cjs')
+
 csv()
   .fromFile(matches)
   .then((matchesData) => {
@@ -14,7 +16,7 @@ csv()
       .fromFile(deliveries)
       .then((deliveriesData) => {
 
-        // 1
+        1
 
         let matchesPerYearOutput = matchesPerYear(matchesData);
         try {
@@ -59,5 +61,16 @@ csv()
         } catch (err) {
           console.log(err);
         }
+
+        // 6 Find a player who has won the highest number of Player of the Match awards for each season player_of_match
+
+        let playerOwnMostMatchAwardsBySeasonOutputData = playerOwnMostMatchAwardsBySeason(matchesData)
+        try {
+          fs.writeFileSync('./src/public/output/6-player-won-highest-number-of-Player-of-Match-awards-by-season.json', JSON.stringify(playerOwnMostMatchAwardsBySeasonOutputData))
+        } catch (err) {
+          console.log(err);
+        }
+
+
       })
   })

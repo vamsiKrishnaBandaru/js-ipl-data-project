@@ -10,6 +10,7 @@ const teamWonTossAndMatch = require('./src/server/5-team-won-toss-and-also-match
 const playerOwnMostMatchAwardsBySeason = require('./src/server/6-player-won-highest-number-of-Player-of-Match-awards-by-season.cjs')
 const batsmanStrikeRateBySeason = require('./src/server/7-batsman-strike-rate-by-season.cjs')
 const mostDismissedPlayerByAnother = require('./src/server/8-most-dismissed-player-by-another-player.cjs')
+const bestEconomyInSuperOvers = require('./src/server/9-best-economy-in-super-overs.cjs')
 
 csv()
   .fromFile(matches)
@@ -87,6 +88,15 @@ csv()
         let mostDismissedPlayerByAnotherOutputData = mostDismissedPlayerByAnother(deliveriesData)
         try {
           fs.writeFileSync('./src/public/output/8-most-dismissed-player-by-another-player.json', JSON.stringify(mostDismissedPlayerByAnotherOutputData))
+        } catch (err) {
+          console.log(err);
+        }
+
+        // 9 Find the bowler with the best economy in super overs
+
+        let bestEconomyInSuperOversOutputData = bestEconomyInSuperOvers(deliveriesData)
+        try {
+          fs.writeFileSync('./src/public/output/9-best-economy-in-super-overs.json', JSON.stringify(bestEconomyInSuperOversOutputData))
         } catch (err) {
           console.log(err);
         }

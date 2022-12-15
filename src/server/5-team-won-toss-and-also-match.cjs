@@ -1,19 +1,31 @@
-function teamWonTossAndMatch(matchesData = []) {
+const fs = require("fs");
+const csv = require('csvtojson')
+const matches = '../data/matches.csv'
 
-  let teamBothWon = matchesData.reduce((result, matchData) => {
+csv()
+  .fromFile(matches)
+  .then((matchesData) => {
+    try {
+      function teamWonTossAndMatch(matchesData = []) {
 
-    if (matchData.toss_winner == matchData.winner) {
+        let teamBothWon = matchesData.reduce((result, matchData) => {
 
-      if (result[matchData.winner]) {
-        result[matchData.winner] += 1
+          if (matchData.toss_winner == matchData.winner) {
 
-      } else {
-        result[matchData.winner] = 1
+            if (result[matchData.winner]) {
+              result[matchData.winner] += 1
+
+            } else {
+              result[matchData.winner] = 1
+            }
+          }
+          return result
+        }, {})
+        return teamBothWon
       }
+      let teamWonTossAndMatchOutputData = teamWonTossAndMatch(matchesData)
+      fs.writeFileSync('../public/output/5-team-won-toss-and-also-match.json', JSON.stringify(teamWonTossAndMatchOutputData))
+    } catch (err) {
+      console.log(err);
     }
-    return result
-  }, {})
-  return teamBothWon
-}
-
-module.exports = teamWonTossAndMatch;
+  })

@@ -1,13 +1,15 @@
 const fs = require("fs");
 const csv = require('csvtojson')
-const matches = '../data/matches.csv'
-const deliveries = '../data/deliveries.csv'
+const path = require("path")
 
+const matchesFilePath = path.join(__dirname, "../data/matches.csv");
+const deliveriesFilePath = path.join(__dirname, "../data/deliveries.csv");
+const outputFilePath = path.join(__dirname, '../public/output/7-batsman-strike-rate-by-season.json');
 csv()
-    .fromFile(matches)
+    .fromFile(matchesFilePath)
     .then((matchesData) => {
         csv()
-            .fromFile(deliveries)
+            .fromFile(deliveriesFilePath)
             .then((deliveriesData) => {
                 try {
                     function batsmanStrikeRateBySeason(matchesData = [], deliveriesData = [], batsmanName) {
@@ -74,9 +76,9 @@ csv()
                             return batsmanDataBySeason
                         }
                         return []
-                    } 
+                    }
                     let batsmanStrikeRateBySeasonOutputData = batsmanStrikeRateBySeason(matchesData, deliveriesData, "MS Dhoni")
-                    fs.writeFileSync('../public/output/7-batsman-strike-rate-by-season.json', JSON.stringify(batsmanStrikeRateBySeasonOutputData))
+                    fs.writeFileSync(outputFilePath, JSON.stringify(batsmanStrikeRateBySeasonOutputData))
                 } catch (err) {
                     console.log(err);
                 }

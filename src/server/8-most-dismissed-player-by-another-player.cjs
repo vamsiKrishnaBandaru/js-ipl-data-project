@@ -1,9 +1,12 @@
 const fs = require("fs");
 const csv = require('csvtojson')
-const deliveries = '../data/deliveries.csv'
+const path = require("path")
+
+const deliveriesFilePath = path.join(__dirname, "../data/deliveries.csv");
+const outputFilePath = path.join(__dirname, '../public/output/8-most-dismissed-player-by-another-player.json');
 
 csv()
-  .fromFile(deliveries)
+  .fromFile(deliveriesFilePath)
   .then((deliveriesData) => {
     try {
       function mostDismissedPlayerByAnother(deliveriesData) {
@@ -33,9 +36,9 @@ csv()
 
         })
         return sortedAwardsDataData
-      } 
+      }
       let mostDismissedPlayerByAnotherOutputData = mostDismissedPlayerByAnother(deliveriesData)
-      fs.writeFileSync('../public/output/8-most-dismissed-player-by-another-player.json', JSON.stringify(mostDismissedPlayerByAnotherOutputData))
+      fs.writeFileSync(outputFilePath, JSON.stringify(mostDismissedPlayerByAnotherOutputData))
     } catch (err) {
       console.log(err);
     }

@@ -1,13 +1,15 @@
 const fs = require("fs");
 const csv = require('csvtojson')
-const matches = '../data/matches.csv'
-const deliveries = '../data/deliveries.csv'
+const path = require("path")
 
+const matchesFilePath = path.join(__dirname, "../data/matches.csv");
+const deliveriesFilePath = path.join(__dirname, "../data/deliveries.csv");
+const outputFilePath = path.join(__dirname, '../public/output/4-top-10-economical-bowlers-in-the-year.json');
 csv()
-  .fromFile(matches)
+  .fromFile(matchesFilePath)
   .then((matchesData) => {
     csv()
-      .fromFile(deliveries)
+      .fromFile(deliveriesFilePath)
       .then((deliveriesData) => {
         try {
           function top10EconomicalBowlersInyear(matchesData = [], deliveriesData = [], year) {
@@ -53,9 +55,9 @@ csv()
               return sortedBowlersData.slice(0, 10)
             }
             return [];
-          } 
+          }
           let top10EconomicalBowlersInyearOutputData = top10EconomicalBowlersInyear(matchesData, deliveriesData, 2015)
-          fs.writeFileSync('../public/output/4-top-10-economical-bowlers-in-the-year.json', JSON.stringify(top10EconomicalBowlersInyearOutputData))
+          fs.writeFileSync(outputFilePath, JSON.stringify(top10EconomicalBowlersInyearOutputData))
         } catch (err) {
           console.log(err);
         }

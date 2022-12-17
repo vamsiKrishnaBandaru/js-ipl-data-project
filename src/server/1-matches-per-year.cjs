@@ -1,9 +1,11 @@
 const fs = require("fs");
 const csv = require('csvtojson')
-const matches = '../data/matches.csv'
+const path = require("path")
 
+const matchesFilePath = path.join(__dirname, "../data/matches.csv");
+const outputFilePath = path.join(__dirname, '../public/output/1-matches-per-year.json');
 csv()
-    .fromFile(matches)
+    .fromFile(matchesFilePath)
     .then((matchesData) => {
         try {
             function matchesPerYear(matchesData = []) {
@@ -23,8 +25,7 @@ csv()
                 return []
             }
 
-            let matchesPerYearOutput = matchesPerYear(matchesData)
-            fs.writeFileSync('../public/output/1-matches-per-year.json', JSON.stringify(matchesPerYearOutput))
+            fs.writeFileSync(outputFilePath, JSON.stringify(matchesPerYear(matchesData)))
         } catch (err) {
             console.log(err);
         }

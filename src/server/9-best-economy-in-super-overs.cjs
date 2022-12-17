@@ -1,9 +1,12 @@
 const fs = require("fs");
 const csv = require('csvtojson')
-const deliveries = '../data/deliveries.csv'
+const path = require("path")
+
+const deliveriesFilePath = path.join(__dirname, "../data/deliveries.csv");
+const outputFilePath = path.join(__dirname, '../public/output/9-best-economy-in-super-overs.json');
 
 csv()
-  .fromFile(deliveries)
+  .fromFile(deliveriesFilePath)
   .then((deliveriesData) => {
     try {
       function bestEconomyInSuperOvers(deliveriesData) {
@@ -32,7 +35,7 @@ csv()
         return [];
       }
       let bestEconomyInSuperOversOutputData = bestEconomyInSuperOvers(deliveriesData)
-      fs.writeFileSync('../public/output/9-best-economy-in-super-overs.json', JSON.stringify(bestEconomyInSuperOversOutputData))
+      fs.writeFileSync(outputFilePath, JSON.stringify(bestEconomyInSuperOversOutputData))
     } catch (err) {
       console.log(err);
     }

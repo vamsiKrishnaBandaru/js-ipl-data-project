@@ -1,34 +1,15 @@
-const fs = require("fs");
-const csv = require('csvtojson')
-const path = require("path")
+function teamWonTossAndMatch(matchesData = []) {
 
-const matchesFilePath = path.join(__dirname, "../data/matches.csv");
-const outputFilePath = path.join(__dirname, '../public/output/5-team-won-toss-and-also-match.json');
+  let teamBothWon = matchesData.reduce((result, matchData) => {
 
-csv()
-  .fromFile(matchesFilePath)
-  .then((matchesData) => {
-    try {
-      function teamWonTossAndMatch(matchesData = []) {
+    if (matchData.toss_winner == matchData.winner) {
 
-        let teamBothWon = matchesData.reduce((result, matchData) => {
+      result[matchData.winner] ? result[matchData.winner] += 1 : result[matchData.winner] = 1
 
-          if (matchData.toss_winner == matchData.winner) {
-
-            if (result[matchData.winner]) {
-              result[matchData.winner] += 1
-
-            } else {
-              result[matchData.winner] = 1
-            }
-          }
-          return result
-        }, {})
-        return teamBothWon
-      }
-      let teamWonTossAndMatchOutputData = teamWonTossAndMatch(matchesData)
-      fs.writeFileSync(outputFilePath, JSON.stringify(teamWonTossAndMatchOutputData))
-    } catch (err) {
-      console.log(err);
     }
-  })
+    return result
+  }, {})
+  return teamBothWon
+}
+
+module.exports = teamWonTossAndMatch;

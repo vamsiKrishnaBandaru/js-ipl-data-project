@@ -1,42 +1,52 @@
-[
-  {
-    "bowler_name": "RN ten Doeschate",
+{
+  "RN ten Doeschate": {
+    "total_balls": 7,
+    "total_runs": 4,
     "economy": 3.43
   },
-  {
-    "bowler_name": "J Yadav",
+  "J Yadav": {
+    "total_balls": 42,
+    "total_runs": 29,
     "economy": 4.14
   },
-  {
-    "bowler_name": "V Kohli",
+  "V Kohli": {
+    "total_balls": 12,
+    "total_runs": 10,
     "economy": 5
   },
-  {
-    "bowler_name": "R Ashwin",
+  "R Ashwin": {
+    "total_balls": 240,
+    "total_runs": 229,
     "economy": 5.72
   },
-  {
-    "bowler_name": "S Nadeem",
+  "S Nadeem": {
+    "total_balls": 44,
+    "total_runs": 43,
     "economy": 5.86
   },
-  {
-    "bowler_name": "Z Khan",
+  "Z Khan": {
+    "total_balls": 155,
+    "total_runs": 159,
     "economy": 6.15
   },
-  {
-    "bowler_name": "Parvez Rasool",
+  "Parvez Rasool": {
+    "total_balls": 30,
+    "total_runs": 31,
     "economy": 6.2
   },
-  {
-    "bowler_name": "MC Henriques",
+  "MC Henriques": {
+    "total_balls": 157,
+    "total_runs": 164,
     "economy": 6.27
   },
-  {
-    "bowler_name": "MA Starc",
+  "MA Starc": {
+    "total_balls": 272,
+    "total_runs": 306,
     "economy": 6.75
   },
-  {
-    "bowler_name": "M de Lange",
+  "M de Lange": {
+    "total_balls": 26,
+    "total_runs": 30,
     "economy": 6.92
   }
-]
+}

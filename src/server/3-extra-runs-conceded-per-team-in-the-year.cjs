@@ -1,47 +1,27 @@
-const fs = require("fs");
-const csv = require('csvtojson')
-const path = require("path")
 
-const matchesFilePath = path.join(__dirname, "../data/matches.csv");
-const deliveriesFilePath = path.join(__dirname, "../data/deliveries.csv");
-const outputFilePath = path.join(__dirname, '../public/output/3-extra-runs-conceded-per-team-in-the-year.json');
-csv()
-  .fromFile(matchesFilePath)
-  .then((matchesData) => {
-    csv()
-      .fromFile(deliveriesFilePath)
-      .then((deliveriesData) => {
-        try {
-          function extraRunsConcededPerTeamInTheYear(matchesData = [], deliveriesData = [], year) {
-            let yearIds = []
-            if (Number(year) && Array.isArray(matchesData) && Array.isArray(deliveriesData)) {
-              // Stored all Ids in the year 2016
-              matchesData.map((matches) => {
-                if (matches.season == year) {
-                  yearIds.push(matches.id)
-                }
-              })
-              // using the yearIds deliveriesData gathered
-              const yearDeliveriesData = deliveriesData.filter(delivery => yearIds.includes(delivery.match_id))
+function extraRunsConcededPerTeamInTheYear(matchesData = [], deliveriesData = [], year) {
 
-              let result = yearDeliveriesData.reduce((output, deliveries) => {
+  if (Number(year) && Array.isArray(matchesData) && Array.isArray(deliveriesData)) {
 
-                if (output[deliveries.bowling_team]) {
-                  output[deliveries.bowling_team] += Number(deliveries.extra_runs)
+    const yearIds = matchesData.reduce((yearId, match) => {
+      if (match.season == year) {
+        yearId.push(match.id)
+      }
+      return yearId
+    }, [])
 
-                } else {
-                  output[deliveries.bowling_team] = Number(deliveries.extra_runs)
-                }
-                return output
-              }, {})
+    let extraRunsConcededPerTeamData = deliveriesData.reduce((output, deliveries) => {
 
-              return result;
-            }
-            return [];
-          } let extraRunsConcededPerTeamInTheYearOutputData = extraRunsConcededPerTeamInTheYear(matchesData, deliveriesData, 2016)
-          fs.writeFileSync(outputFilePath, JSON.stringify(extraRunsConcededPerTeamInTheYearOutputData))
-        } catch (err) {
-          console.log(err);
-        }
-      })
-  })
+      if (yearIds.includes(deliveries.match_id)) {
+        output[deliveries.bowling_team] ? output[deliveries.bowling_team] += Number(deliveries.extra_runs) : output[deliveries.bowling_team] = Number(deliveries.extra_runs)
+
+      }
+      return output
+    }, {})
+
+    return extraRunsConcededPerTeamData;
+  }
+  return [];
+}
+
+module.exports = extraRunsConcededPerTeamInTheYear;

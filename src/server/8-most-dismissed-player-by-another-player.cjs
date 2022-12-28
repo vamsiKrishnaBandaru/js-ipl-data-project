@@ -1,45 +1,36 @@
-const fs = require("fs");
-const csv = require('csvtojson')
-const path = require("path")
+function mostDismissedPlayerByAnother(deliveriesData) {
 
-const deliveriesFilePath = path.join(__dirname, "../data/deliveries.csv");
-const outputFilePath = path.join(__dirname, '../public/output/8-most-dismissed-player-by-another-player.json');
+  const playerDismissalData = deliveriesData.reduce((result, player) => {
 
-csv()
-  .fromFile(deliveriesFilePath)
-  .then((deliveriesData) => {
-    try {
-      function mostDismissedPlayerByAnother(deliveriesData) {
-        const playerDismissalData = deliveriesData.reduce((result, player) => {
-          if (player.player_dismissed) {
+    if (player.player_dismissed) {
 
-            if ((result[player.player_dismissed] && result[player.player_dismissed][player.bowler])) {
-              result[player.player_dismissed][player.bowler] += 1;
+      if ((result[player.player_dismissed] && result[player.player_dismissed][player.bowler])) {
+        result[player.player_dismissed][player.bowler] += 1;
 
-            } else if (result[player.player_dismissed] == undefined) {
-              result[player.player_dismissed] = {}
-              result[player.player_dismissed][player.bowler] = 1
-            } else {
-              result[player.player_dismissed][player.bowler] = 1
-            }
-          }
-          return result
-        }, {})
-        let sortedAwardsDataData = Object.entries(playerDismissalData).map((data) => {
-          return {
-            'playerName': data[0],
-            'dismissedBy': (Object.entries(data[1])
-              .sort(([, bowler1], [, bowler2]) => bowler2 - bowler1)[0])[0],
-            'numberOfTimesDismissed': (Object.entries(data[1])
-              .sort(([, bowler1], [, bowler2]) => bowler2 - bowler1)[0])[1]
-          }
-
-        })
-        return sortedAwardsDataData
+      } else if (result[player.player_dismissed] == undefined) {
+        result[player.player_dismissed] = {}
+        result[player.player_dismissed][player.bowler] = 1
+      } else {
+        result[player.player_dismissed][player.bowler] = 1
       }
-      let mostDismissedPlayerByAnotherOutputData = mostDismissedPlayerByAnother(deliveriesData)
-      fs.writeFileSync(outputFilePath, JSON.stringify(mostDismissedPlayerByAnotherOutputData))
-    } catch (err) {
-      console.log(err);
     }
-  })
+    return result
+  }, {})
+
+  let sortedAwardsDataData = Object.entries(playerDismissalData).reduce((output, data) => {
+
+    let playerData = Object.entries(data[1]).sort(([, player1], [, player2]) => {
+      return player2 - player1
+    })[0]
+
+    output[data[0]] = {
+      "dismissedPlayer": playerData[0],
+      "numberOfdismissals": playerData[1]
+    }
+    return output
+
+  }, {})
+  return sortedAwardsDataData
+}
+
+module.exports = mostDismissedPlayerByAnother;

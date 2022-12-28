@@ -1,2182 +1,1746 @@
-[
-  {
-    "playerName": "DA Warner",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "S Dhawan",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "MC Henriques",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Yuvraj Singh",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Mandeep Singh",
-    "dismissedBy": "MM Sharma",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "CH Gayle",
-    "dismissedBy": "Sandeep Sharma",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "KM Jadhav",
-    "dismissedBy": "JD Unadkat",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "TM Head",
-    "dismissedBy": "Rashid Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Sachin Baby",
-    "dismissedBy": "Bipul Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "STR Binny",
-    "dismissedBy": "KA Pollard",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "SR Watson",
-    "dismissedBy": "AR Patel",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "S Aravind",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "TS Mills",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "YS Chahal",
-    "dismissedBy": "BCJ Cutting",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PA Patel",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "RG Sharma",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 6
-  },
-  {
-    "playerName": "JC Buttler",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AT Rayudu",
-    "dismissedBy": "MM Sharma",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "KH Pandya",
-    "dismissedBy": "R Bhatia",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "N Rana",
-    "dismissedBy": "A Zampa",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KA Pollard",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "TG Southee",
-    "dismissedBy": "AB Dinda",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MA Agarwal",
-    "dismissedBy": "R Ashwin",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "AM Rahane",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 6
-  },
-  {
-    "playerName": "BA Stokes",
-    "dismissedBy": "HH Pandya",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "JJ Roy",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BB McCullum",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "AJ Finch",
-    "dismissedBy": "P Negi",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "KD Karthik",
-    "dismissedBy": "DW Steyn",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "SPD Smith",
-    "dismissedBy": "RA Jadeja",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "MS Dhoni",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 7
-  },
-  {
-    "playerName": "DT Christian",
-    "dismissedBy": "UT Yadav",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "M Vohra",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "WP Saha",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "HM Amla",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AR Patel",
-    "dismissedBy": "SP Narine",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Vishnu Vinod",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "P Negi",
-    "dismissedBy": "CH Morris",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AP Tare",
-    "dismissedBy": "KK Cooper",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "KK Nair",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "SW Billings",
-    "dismissedBy": "Iqbal Abdulla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SV Samson",
-    "dismissedBy": "MJ McClenaghan",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "CH Morris",
-    "dismissedBy": "UT Yadav",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "CR Brathwaite",
-    "dismissedBy": "YS Chahal",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PJ Cummins",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RR Pant",
-    "dismissedBy": "JJ Bumrah",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "S Nadeem",
-    "dismissedBy": "P Negi",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "SK Raina",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "DR Smith",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "DS Kulkarni",
-    "dismissedBy": "CJ Jordan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "G Gambhir",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 6
-  },
-  {
-    "playerName": "RV Uthappa",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "CA Lynn",
-    "dismissedBy": "JJ Bumrah",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "YK Pathan",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "SA Yadav",
-    "dismissedBy": "JP Faulkner",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "CR Woakes",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SP Narine",
-    "dismissedBy": "MG Johnson",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "RA Tripathi",
-    "dismissedBy": "P Negi",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "F du Plessis",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "R Bhatia",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "DL Chahar",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Zampa",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AB Dinda",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "DJ Hooda",
-    "dismissedBy": "MM Sharma",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "BCJ Cutting",
-    "dismissedBy": "JJ Bumrah",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "V Shankar",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "NV Ojha",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "Rashid Khan",
-    "dismissedBy": "JJ Bumrah",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MP Stoinis",
-    "dismissedBy": "SP Narine",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "GJ Maxwell",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "DA Miller",
-    "dismissedBy": "UT Yadav",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "MM Sharma",
-    "dismissedBy": "MA Starc",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "VR Aaron",
-    "dismissedBy": "CR Woakes",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "V Kohli",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 6
-  },
-  {
-    "playerName": "AB de Villiers",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "MJ McClenaghan",
-    "dismissedBy": "S Badree",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Ankit Sharma",
-    "dismissedBy": "AJ Tye",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MK Tiwary",
-    "dismissedBy": "M Morkel",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "SN Thakur",
-    "dismissedBy": "AJ Tye",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MK Pandey",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "C de Grandhomme",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SS Iyer",
-    "dismissedBy": "Sandeep Sharma",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "EJG Morgan",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "KC Cariappa",
-    "dismissedBy": "CH Morris",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Ishan Kishan",
-    "dismissedBy": "Imran Tahir",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "S Badree",
-    "dismissedBy": "JD Unadkat",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AF Milne",
-    "dismissedBy": "BA Stokes",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AD Mathews",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Mohammad Nabi",
-    "dismissedBy": "Sandeep Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "I Sharma",
-    "dismissedBy": "S Kaul",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RA Jadeja",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "KS Williamson",
-    "dismissedBy": "CH Morris",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "SE Marsh",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Harbhajan Singh",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "HH Pandya",
-    "dismissedBy": "Mustafizur Rahman",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "CJ Anderson",
-    "dismissedBy": "SP Narine",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "K Rabada",
-    "dismissedBy": "JJ Bumrah",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AD Nath",
-    "dismissedBy": "KC Cariappa",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AJ Tye",
-    "dismissedBy": "Sandeep Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "NM Coulter-Nile",
-    "dismissedBy": "P Negi",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Kuldeep Yadav",
-    "dismissedBy": "S Aravind",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KV Sharma",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "MJ Guptill",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Anureet Singh",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "IK Pathan",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "JP Faulkner",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "JJ Bumrah",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Mohammed Shami",
-    "dismissedBy": "VR Aaron",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SP Jackson",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PJ Sangwan",
-    "dismissedBy": "JD Unadkat",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Ankit Soni",
-    "dismissedBy": "JD Unadkat",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Choudhary",
-    "dismissedBy": "MM Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Bipul Sharma",
-    "dismissedBy": "JD Unadkat",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "B Kumar",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "LMP Simmons",
-    "dismissedBy": "R Ashwin",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "MN Samuels",
-    "dismissedBy": "KV Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Z Khan",
-    "dismissedBy": "DE Bollinger",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Swapnil Singh",
-    "dismissedBy": "CR Woakes",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "P Kumar",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "MM Patel",
-    "dismissedBy": "A Kumble",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "SS Tiwary",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "R Tewatia",
-    "dismissedBy": "SN Thakur",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Mishra",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "CJ Jordan",
-    "dismissedBy": "NM Coulter-Nile",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "IR Jaggi",
-    "dismissedBy": "KV Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PP Chawla",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "AS Rajpoot",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Washington Sundar",
-    "dismissedBy": "MG Johnson",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SC Ganguly",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "RT Ponting",
-    "dismissedBy": "JH Kallis",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DJ Hussey",
-    "dismissedBy": "SK Trivedi",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "R Dravid",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "JH Kallis",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "W Jaffer",
-    "dismissedBy": "AB Dinda",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MV Boucher",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "B Akhil",
-    "dismissedBy": "AB Agarkar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CL White",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AA Noffke",
-    "dismissedBy": "SC Ganguly",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SB Joshi",
-    "dismissedBy": "LR Shukla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "ML Hayden",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "JDP Oram",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "K Goel",
-    "dismissedBy": "MS Gony",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "JR Hopes",
-    "dismissedBy": "P Amarnath",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KC Sangakkara",
-    "dismissedBy": "R Sharma",
-    "numberOfTimesDismissed": 5
-  },
-  {
-    "playerName": "T Kohli",
-    "dismissedBy": "GD McGrath",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DS Lehmann",
-    "dismissedBy": "MF Maharoof",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Kaif",
-    "dismissedBy": "S Sreesanth",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "M Rawat",
-    "dismissedBy": "R Bhatia",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SK Warne",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "V Sehwag",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "L Ronchi",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DJ Thornely",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "ST Jayasuriya",
-    "dismissedBy": "B Lee",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "PR Shah",
-    "dismissedBy": "B Akhil",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AM Nayar",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "SM Pollock",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Chanderpaul",
-    "dismissedBy": "DS Kulkarni",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "LRPL Taylor",
-    "dismissedBy": "PP Ojha",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Y Venugopal Rao",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "VVS Laxman",
-    "dismissedBy": "AB Dinda",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AC Gilchrist",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "SB Styris",
-    "dismissedBy": "Mohammad Hafeez",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AS Yadav",
-    "dismissedBy": "DJ Hussey",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Symonds",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "WPUJC Vaas",
-    "dismissedBy": "AB Agarkar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SB Bangar",
-    "dismissedBy": "M Kartik",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PP Ojha",
-    "dismissedBy": "SK Raina",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Mohammad Hafeez",
-    "dismissedBy": "PP Ojha",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DPMD Jayawardene",
-    "dismissedBy": "M Muralitharan",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "B Lee",
-    "dismissedBy": "SK Trivedi",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Sohal",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Kamran Akmal",
-    "dismissedBy": "JR Hopes",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Shahid Afridi",
-    "dismissedBy": "R Bhatia",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MEK Hussey",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "DJ Bravo",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "MA Khote",
-    "dismissedBy": "M Muralitharan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "GC Smith",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "D Salunkhe",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RR Sarwan",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Sreesanth",
-    "dismissedBy": "DS Kulkarni",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "VRV Singh",
-    "dismissedBy": "DS Kulkarni",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AB Agarkar",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "M Kartik",
-    "dismissedBy": "L Balaji",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "LR Shukla",
-    "dismissedBy": "VRV Singh",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Shoaib Malik",
-    "dismissedBy": "VRV Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MF Maharoof",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SM Katich",
-    "dismissedBy": "R Bhatia",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "TM Srivastava",
-    "dismissedBy": "VY Mahesh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "B Chipli",
-    "dismissedBy": "MS Gony",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DW Steyn",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "DB Das",
-    "dismissedBy": "Sohail Tanvir",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "HH Gibbs",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "DNT Zoysa",
-    "dismissedBy": "S Sreesanth",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "D Kalyankrishna",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SA Asnodkar",
-    "dismissedBy": "JA Morkel",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Salman Butt",
-    "dismissedBy": "Sohail Tanvir",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BJ Hodge",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Umar Gul",
-    "dismissedBy": "Sohail Tanvir",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "SP Fleming",
-    "dismissedBy": "VY Mahesh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Vidyut",
-    "dismissedBy": "GD McGrath",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "JA Morkel",
-    "dismissedBy": "PP Ojha",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "LPC Silva",
-    "dismissedBy": "V Kohli",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DB Ravi Teja",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "RP Singh",
-    "dismissedBy": "DW Steyn",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Misbah-ul-Haq",
-    "dismissedBy": "DB Ravi Teja",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "YV Takawale",
-    "dismissedBy": "VY Mahesh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Mohammad Asif",
-    "dismissedBy": "DS Kulkarni",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "GD McGrath",
-    "dismissedBy": "DS Kulkarni",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Badrinath",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Joginder Sharma",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Muralitharan",
-    "dismissedBy": "Sohail Tanvir",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Ntini",
-    "dismissedBy": "Sohail Tanvir",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DT Patil",
-    "dismissedBy": "VRV Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Kumble",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Anirudha",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Sohail Tanvir",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SK Trivedi",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CK Kapugedera",
-    "dismissedBy": "VY Mahesh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Chopra",
-    "dismissedBy": "DW Steyn",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "T Taibu",
-    "dismissedBy": "DW Steyn",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "J Arunkumar",
-    "dismissedBy": "Umar Gul",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SP Goswami",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "R Vinay Kumar",
-    "dismissedBy": "A Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "AD Mascarenhas",
-    "dismissedBy": "R Bhatia",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "TM Dilshan",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "VY Mahesh",
-    "dismissedBy": "LR Shukla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SR Tendulkar",
-    "dismissedBy": "RP Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Younis Khan",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Niraj Patel",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Shoaib Akhtar",
-    "dismissedBy": "RR Raje",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "H Das",
-    "dismissedBy": "CRD Fernando",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SD Chitnis",
-    "dismissedBy": "VRV Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Nehra",
-    "dismissedBy": "VRV Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "VS Yeligati",
-    "dismissedBy": "VRV Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MS Gony",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "L Balaji",
-    "dismissedBy": "DW Steyn",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "LA Pomersbach",
-    "dismissedBy": "PP Ojha",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Nel",
-    "dismissedBy": "VY Mahesh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Mukund",
-    "dismissedBy": "Sohail Tanvir",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "WA Mota",
-    "dismissedBy": "TL Suman",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "JP Duminy",
-    "dismissedBy": "DP Nannes",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "A Flintoff",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "JD Ryder",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "KP Pietersen",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "T Henderson",
-    "dismissedBy": "JD Ryder",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Kamran Khan",
-    "dismissedBy": "A Kumble",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RS Bopara",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "R Bishnoi",
-    "dismissedBy": "M Muralitharan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PC Valthaty",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "RJ Quiney",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Yashpal Singh",
-    "dismissedBy": "SK Warne",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Pankaj Singh",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "FH Edwards",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AS Raut",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AN Ghosh",
-    "dismissedBy": "AM Nayar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BAW Mendis",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DL Vettori",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RE van der Merwe",
-    "dismissedBy": "I Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RR Powar",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AA Bilakhia",
-    "dismissedBy": "DL Vettori",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "TL Suman",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "Shoaib Ahmed",
-    "dismissedBy": "DP Nannes",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "GR Napier",
-    "dismissedBy": "CH Gayle",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MN van Wyk",
-    "dismissedBy": "GR Napier",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "LA Carseldine",
-    "dismissedBy": "Y Venugopal Rao",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Vijay",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 4
-  },
-  {
-    "playerName": "SB Jakati",
-    "dismissedBy": "DP Nannes",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Manhas",
-    "dismissedBy": "R Sharma",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "RJ Harris",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "D du Preez",
-    "dismissedBy": "A Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RR Raje",
-    "dismissedBy": "R Bhatia",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Morkel",
-    "dismissedBy": "SP Narine",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "S Tyagi",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "C Nanda",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SL Malinga",
-    "dismissedBy": "WD Parnell",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "J Botha",
-    "dismissedBy": "Anand Rajan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "A Singh",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "GJ Bailey",
-    "dismissedBy": "MC Henriques",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "AB McDonald",
-    "dismissedBy": "A Kumble",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Y Nagar",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "SS Shaikh",
-    "dismissedBy": "J Botha",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "R Ashwin",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "T Thushara",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Mohammad Ashraful",
-    "dismissedBy": "PJ Sangwan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CA Pujara",
-    "dismissedBy": "JH Kallis",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Anirudh Singh",
-    "dismissedBy": "LR Shukla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "R Sathish",
-    "dismissedBy": "JA Morkel",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AA Jhunjhunwala",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "P Dogra",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Uniyal",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MS Bisla",
-    "dismissedBy": "JA Morkel",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "JM Kemp",
-    "dismissedBy": "PP Ojha",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "OA Shah",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "RS Gavaskar",
-    "dismissedBy": "JM Kemp",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SE Bond",
-    "dismissedBy": "R Ashwin",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DP Nannes",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MJ Lumb",
-    "dismissedBy": "JA Morkel",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "DR Martyn",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Narwal",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AB Barath",
-    "dismissedBy": "PP Ojha",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "FY Fazal",
-    "dismissedBy": "SE Bond",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MD Mishra",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "S Ladda",
-    "dismissedBy": "WPUJC Vaas",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "J Theron",
-    "dismissedBy": "L Balaji",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SJ Srivastava",
-    "dismissedBy": "SW Tait",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "R Sharma",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AC Voges",
-    "dismissedBy": "JA Morkel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Jaskaran Singh",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KAJ Roach",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PD Collingwood",
-    "dismissedBy": "CK Langeveldt",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CK Langeveldt",
-    "dismissedBy": "AB McDonald",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "VS Malik",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SW Tait",
-    "dismissedBy": "V Sehwag",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Mithun",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AP Dole",
-    "dismissedBy": "RJ Harris",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Harmeet Singh",
-    "dismissedBy": "SK Trivedi",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "R McLaren",
-    "dismissedBy": "R Ashwin",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Sriram",
-    "dismissedBy": "AB Dinda",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KP Appanna",
-    "dismissedBy": "RJ Harris",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "C Madan",
-    "dismissedBy": "AB McDonald",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AG Paunikar",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MR Marsh",
-    "dismissedBy": "Yuvraj Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "B Sumanth",
-    "dismissedBy": "DE Bollinger",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RV Gomez",
-    "dismissedBy": "DP Nannes",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "UBT Chand",
-    "dismissedBy": "B Lee",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "UT Yadav",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DJ Jacobs",
-    "dismissedBy": "M Morkel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Sunny Singh",
-    "dismissedBy": "M Kartik",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AL Menaria",
-    "dismissedBy": "YK Pathan",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AUK Pathan",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "WD Parnell",
-    "dismissedBy": "SP Narine",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "JJ van der Wath",
-    "dismissedBy": "DW Steyn",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "R Ninan",
-    "dismissedBy": "DT Christian",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MS Wade",
-    "dismissedBy": "R Sharma",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "TD Paine",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SB Wagh",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "JEC Franklin",
-    "dismissedBy": "SB Wagh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Shakib Al Hasan",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "S Randiv",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BJ Haddin",
-    "dismissedBy": "J Syed Mohammad",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "NLTC Perera",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "JE Taylor",
-    "dismissedBy": "DE Bollinger",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "NL McCullum",
-    "dismissedBy": "DE Bollinger",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RN ten Doeschate",
-    "dismissedBy": "M Morkel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "TR Birt",
-    "dismissedBy": "YK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Klinger",
-    "dismissedBy": "M Morkel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Harpreet Singh",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AC Blizzard",
-    "dismissedBy": "AC Thomas",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CA Ingram",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DH Yagnik",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "KB Arun Karthik",
-    "dismissedBy": "Iqbal Abdulla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AA Chavan",
-    "dismissedBy": "BJ Hodge",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "ND Doshi",
-    "dismissedBy": "P Parameswaran",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CJ Ferguson",
-    "dismissedBy": "JP Duminy",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Y Gnaneswara Rao",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Rana",
-    "dismissedBy": "L Balaji",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BA Bhatt",
-    "dismissedBy": "Anand Rajan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DE Bollinger",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RE Levi",
-    "dismissedBy": "DW Steyn",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "HV Patel",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "DJ Harris",
-    "dismissedBy": "DE Bollinger",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KK Cooper",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "GB Hogg",
-    "dismissedBy": "MM Patel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RR Bhatkal",
-    "dismissedBy": "DE Bollinger",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CJ McKay",
-    "dismissedBy": "IK Pathan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "N Saini",
-    "dismissedBy": "Z Khan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Azhar Mahmood",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AC Thomas",
-    "dismissedBy": "MS Gony",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RJ Peterson",
-    "dismissedBy": "M Morkel",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "A Ashish Reddy",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "V Pratap Singh",
-    "dismissedBy": "SL Malinga",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MJ Clarke",
-    "dismissedBy": "V Pratap Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Gurkeerat Singh",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "AP Majumdar",
-    "dismissedBy": "J Botha",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PA Reddy",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AD Russell",
-    "dismissedBy": "P Parameswaran",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Sunny Gupta",
-    "dismissedBy": "SB Jakati",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MC Juneja",
-    "dismissedBy": "L Balaji",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "GH Vihari",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "MDKJ Perera",
-    "dismissedBy": "UT Yadav",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "B Laughlin",
-    "dismissedBy": "KA Pollard",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BMAJ Mendis",
-    "dismissedBy": "KA Pollard",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "R Rampaul",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "P Awana",
-    "dismissedBy": "JP Faulkner",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SMSM Senanayake",
-    "dismissedBy": "P Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BJ Rohrer",
-    "dismissedBy": "JD Unadkat",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KL Rahul",
-    "dismissedBy": "DS Kulkarni",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "J Syed Mohammad",
-    "dismissedBy": "UT Yadav",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Q de Kock",
-    "dismissedBy": "AB Dinda",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "BB Samantray",
-    "dismissedBy": "JP Faulkner",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "R Dhawan",
-    "dismissedBy": "STR Binny",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MG Johnson",
-    "dismissedBy": "JP Faulkner",
-    "numberOfTimesDismissed": 3
-  },
-  {
-    "playerName": "LJ Wright",
-    "dismissedBy": "Azhar Mahmood",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AG Murtaza",
-    "dismissedBy": "CH Gayle",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "IC Pandey",
-    "dismissedBy": "CH Gayle",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "X Thalaivan Sargunam",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "DJG Sammy",
-    "dismissedBy": "JP Faulkner",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "KW Richardson",
-    "dismissedBy": "CH Morris",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "CM Gautam",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "UA Birla",
-    "dismissedBy": "Iqbal Abdulla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Parvez Rasool",
-    "dismissedBy": "L Balaji",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "NJ Maddinson",
-    "dismissedBy": "Mohammed Shami",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "JDS Neesham",
-    "dismissedBy": "PP Chawla",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PV Tambe",
-    "dismissedBy": "R Ashwin",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "MA Starc",
-    "dismissedBy": "R Bhatia",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BR Dunk",
-    "dismissedBy": "DJG Sammy",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "RR Rossouw",
-    "dismissedBy": "A Nehra",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "Shivam Sharma",
-    "dismissedBy": "MA Starc",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "VH Zol",
-    "dismissedBy": "R Tewatia",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Imran Tahir",
-    "dismissedBy": "STR Binny",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "R Shukla",
-    "dismissedBy": "KK Cooper",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "BE Hendricks",
-    "dismissedBy": "JJ Bumrah",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M de Lange",
-    "dismissedBy": "Imran Tahir",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Gopal",
-    "dismissedBy": "WD Parnell",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "JO Holder",
-    "dismissedBy": "R Vinay Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "JD Unadkat",
-    "dismissedBy": "MG Johnson",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SA Abbott",
-    "dismissedBy": "Shakib Al Hasan",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "AN Ahmed",
-    "dismissedBy": "B Kumar",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Iqbal Abdulla",
-    "dismissedBy": "KA Pollard",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "SN Khan",
-    "dismissedBy": "RA Jadeja",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "D Wiese",
-    "dismissedBy": "DJ Bravo",
-    "numberOfTimesDismissed": 2
-  },
-  {
-    "playerName": "DJ Muthuswami",
-    "dismissedBy": "D Wiese",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Karanveer Singh",
-    "dismissedBy": "MA Starc",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "Sandeep Sharma",
-    "dismissedBy": "YS Chahal",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "J Suchith",
-    "dismissedBy": "YS Chahal",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "C Munro",
-    "dismissedBy": "JJ Bumrah",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "P Sahu",
-    "dismissedBy": "UT Yadav",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "M Ashwin",
-    "dismissedBy": "KW Richardson",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "NS Naik",
-    "dismissedBy": "Mustafizur Rahman",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "PSP Handscomb",
-    "dismissedBy": "Harbhajan Singh",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "J Yadav",
-    "dismissedBy": "R Ashwin",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "UT Khawaja",
-    "dismissedBy": "A Mishra",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "S Kaushik",
-    "dismissedBy": "Sachin Baby",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "F Behardien",
-    "dismissedBy": "YS Chahal",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "KJ Abbott",
-    "dismissedBy": "YS Chahal",
-    "numberOfTimesDismissed": 1
-  },
-  {
-    "playerName": "ER Dwivedi",
-    "dismissedBy": "SR Watson",
-    "numberOfTimesDismissed": 1
+{
+  "DA Warner": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 3
+  },
+  "S Dhawan": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 4
+  },
+  "MC Henriques": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 2
+  },
+  "Yuvraj Singh": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 3
+  },
+  "Mandeep Singh": {
+    "dismissedPlayer": "MM Sharma",
+    "numberOfdismissals": 3
+  },
+  "CH Gayle": {
+    "dismissedPlayer": "Sandeep Sharma",
+    "numberOfdismissals": 4
+  },
+  "KM Jadhav": {
+    "dismissedPlayer": "JD Unadkat",
+    "numberOfdismissals": 2
+  },
+  "TM Head": {
+    "dismissedPlayer": "Rashid Khan",
+    "numberOfdismissals": 1
+  },
+  "Sachin Baby": {
+    "dismissedPlayer": "Bipul Sharma",
+    "numberOfdismissals": 1
+  },
+  "STR Binny": {
+    "dismissedPlayer": "KA Pollard",
+    "numberOfdismissals": 2
+  },
+  "SR Watson": {
+    "dismissedPlayer": "AR Patel",
+    "numberOfdismissals": 5
+  },
+  "S Aravind": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 1
+  },
+  "TS Mills": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 1
+  },
+  "YS Chahal": {
+    "dismissedPlayer": "BCJ Cutting",
+    "numberOfdismissals": 1
+  },
+  "PA Patel": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 5
+  },
+  "RG Sharma": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 6
+  },
+  "JC Buttler": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 2
+  },
+  "AT Rayudu": {
+    "dismissedPlayer": "MM Sharma",
+    "numberOfdismissals": 5
+  },
+  "KH Pandya": {
+    "dismissedPlayer": "R Bhatia",
+    "numberOfdismissals": 1
+  },
+  "N Rana": {
+    "dismissedPlayer": "A Zampa",
+    "numberOfdismissals": 1
+  },
+  "KA Pollard": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 3
+  },
+  "TG Southee": {
+    "dismissedPlayer": "AB Dinda",
+    "numberOfdismissals": 1
+  },
+  "MA Agarwal": {
+    "dismissedPlayer": "R Ashwin",
+    "numberOfdismissals": 3
+  },
+  "AM Rahane": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 6
+  },
+  "BA Stokes": {
+    "dismissedPlayer": "HH Pandya",
+    "numberOfdismissals": 1
+  },
+  "JJ Roy": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 1
+  },
+  "BB McCullum": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 4
+  },
+  "AJ Finch": {
+    "dismissedPlayer": "P Negi",
+    "numberOfdismissals": 3
+  },
+  "KD Karthik": {
+    "dismissedPlayer": "DW Steyn",
+    "numberOfdismissals": 4
+  },
+  "SPD Smith": {
+    "dismissedPlayer": "RA Jadeja",
+    "numberOfdismissals": 4
+  },
+  "MS Dhoni": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 7
+  },
+  "DT Christian": {
+    "dismissedPlayer": "UT Yadav",
+    "numberOfdismissals": 2
+  },
+  "M Vohra": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 2
+  },
+  "WP Saha": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 3
+  },
+  "HM Amla": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 2
+  },
+  "AR Patel": {
+    "dismissedPlayer": "SP Narine",
+    "numberOfdismissals": 3
+  },
+  "Vishnu Vinod": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "P Negi": {
+    "dismissedPlayer": "CH Morris",
+    "numberOfdismissals": 2
+  },
+  "AP Tare": {
+    "dismissedPlayer": "KK Cooper",
+    "numberOfdismissals": 2
+  },
+  "KK Nair": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 4
+  },
+  "SW Billings": {
+    "dismissedPlayer": "Iqbal Abdulla",
+    "numberOfdismissals": 1
+  },
+  "SV Samson": {
+    "dismissedPlayer": "MJ McClenaghan",
+    "numberOfdismissals": 4
+  },
+  "CH Morris": {
+    "dismissedPlayer": "UT Yadav",
+    "numberOfdismissals": 2
+  },
+  "CR Brathwaite": {
+    "dismissedPlayer": "YS Chahal",
+    "numberOfdismissals": 1
+  },
+  "PJ Cummins": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 1
+  },
+  "RR Pant": {
+    "dismissedPlayer": "JJ Bumrah",
+    "numberOfdismissals": 3
+  },
+  "S Nadeem": {
+    "dismissedPlayer": "P Negi",
+    "numberOfdismissals": 2
+  },
+  "SK Raina": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 5
+  },
+  "DR Smith": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 4
+  },
+  "DS Kulkarni": {
+    "dismissedPlayer": "CJ Jordan",
+    "numberOfdismissals": 2
+  },
+  "G Gambhir": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 6
+  },
+  "RV Uthappa": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 5
+  },
+  "CA Lynn": {
+    "dismissedPlayer": "JJ Bumrah",
+    "numberOfdismissals": 2
+  },
+  "YK Pathan": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 4
+  },
+  "SA Yadav": {
+    "dismissedPlayer": "JP Faulkner",
+    "numberOfdismissals": 2
+  },
+  "CR Woakes": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "SP Narine": {
+    "dismissedPlayer": "MG Johnson",
+    "numberOfdismissals": 2
+  },
+  "RA Tripathi": {
+    "dismissedPlayer": "P Negi",
+    "numberOfdismissals": 2
+  },
+  "F du Plessis": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 4
+  },
+  "R Bhatia": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 2
+  },
+  "DL Chahar": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "A Zampa": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 1
+  },
+  "AB Dinda": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 2
+  },
+  "DJ Hooda": {
+    "dismissedPlayer": "MM Sharma",
+    "numberOfdismissals": 2
+  },
+  "BCJ Cutting": {
+    "dismissedPlayer": "JJ Bumrah",
+    "numberOfdismissals": 1
+  },
+  "V Shankar": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "NV Ojha": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 4
+  },
+  "Rashid Khan": {
+    "dismissedPlayer": "JJ Bumrah",
+    "numberOfdismissals": 1
+  },
+  "MP Stoinis": {
+    "dismissedPlayer": "SP Narine",
+    "numberOfdismissals": 1
+  },
+  "GJ Maxwell": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 4
+  },
+  "DA Miller": {
+    "dismissedPlayer": "UT Yadav",
+    "numberOfdismissals": 3
+  },
+  "MM Sharma": {
+    "dismissedPlayer": "MA Starc",
+    "numberOfdismissals": 2
+  },
+  "VR Aaron": {
+    "dismissedPlayer": "CR Woakes",
+    "numberOfdismissals": 1
+  },
+  "V Kohli": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 6
+  },
+  "AB de Villiers": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 5
+  },
+  "MJ McClenaghan": {
+    "dismissedPlayer": "S Badree",
+    "numberOfdismissals": 1
+  },
+  "Ankit Sharma": {
+    "dismissedPlayer": "AJ Tye",
+    "numberOfdismissals": 1
+  },
+  "MK Tiwary": {
+    "dismissedPlayer": "M Morkel",
+    "numberOfdismissals": 4
+  },
+  "SN Thakur": {
+    "dismissedPlayer": "AJ Tye",
+    "numberOfdismissals": 1
+  },
+  "MK Pandey": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 5
+  },
+  "C de Grandhomme": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 1
+  },
+  "SS Iyer": {
+    "dismissedPlayer": "Sandeep Sharma",
+    "numberOfdismissals": 3
+  },
+  "EJG Morgan": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 2
+  },
+  "KC Cariappa": {
+    "dismissedPlayer": "CH Morris",
+    "numberOfdismissals": 1
+  },
+  "Ishan Kishan": {
+    "dismissedPlayer": "Imran Tahir",
+    "numberOfdismissals": 2
+  },
+  "S Badree": {
+    "dismissedPlayer": "JD Unadkat",
+    "numberOfdismissals": 1
+  },
+  "AF Milne": {
+    "dismissedPlayer": "BA Stokes",
+    "numberOfdismissals": 1
+  },
+  "AD Mathews": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 3
+  },
+  "Mohammad Nabi": {
+    "dismissedPlayer": "Sandeep Sharma",
+    "numberOfdismissals": 1
+  },
+  "I Sharma": {
+    "dismissedPlayer": "S Kaul",
+    "numberOfdismissals": 1
+  },
+  "RA Jadeja": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 4
+  },
+  "KS Williamson": {
+    "dismissedPlayer": "CH Morris",
+    "numberOfdismissals": 2
+  },
+  "SE Marsh": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 3
+  },
+  "Harbhajan Singh": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 4
+  },
+  "HH Pandya": {
+    "dismissedPlayer": "Mustafizur Rahman",
+    "numberOfdismissals": 2
+  },
+  "CJ Anderson": {
+    "dismissedPlayer": "SP Narine",
+    "numberOfdismissals": 2
+  },
+  "K Rabada": {
+    "dismissedPlayer": "JJ Bumrah",
+    "numberOfdismissals": 1
+  },
+  "AD Nath": {
+    "dismissedPlayer": "KC Cariappa",
+    "numberOfdismissals": 1
+  },
+  "AJ Tye": {
+    "dismissedPlayer": "Sandeep Sharma",
+    "numberOfdismissals": 1
+  },
+  "NM Coulter-Nile": {
+    "dismissedPlayer": "P Negi",
+    "numberOfdismissals": 1
+  },
+  "Kuldeep Yadav": {
+    "dismissedPlayer": "S Aravind",
+    "numberOfdismissals": 1
+  },
+  "KV Sharma": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 2
+  },
+  "MJ Guptill": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 2
+  },
+  "Anureet Singh": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 1
+  },
+  "IK Pathan": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 3
+  },
+  "JP Faulkner": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 2
+  },
+  "JJ Bumrah": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "Mohammed Shami": {
+    "dismissedPlayer": "VR Aaron",
+    "numberOfdismissals": 1
+  },
+  "SP Jackson": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 1
+  },
+  "PJ Sangwan": {
+    "dismissedPlayer": "JD Unadkat",
+    "numberOfdismissals": 1
+  },
+  "Ankit Soni": {
+    "dismissedPlayer": "JD Unadkat",
+    "numberOfdismissals": 1
+  },
+  "A Choudhary": {
+    "dismissedPlayer": "MM Sharma",
+    "numberOfdismissals": 1
+  },
+  "Bipul Sharma": {
+    "dismissedPlayer": "JD Unadkat",
+    "numberOfdismissals": 1
+  },
+  "B Kumar": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 2
+  },
+  "LMP Simmons": {
+    "dismissedPlayer": "R Ashwin",
+    "numberOfdismissals": 2
+  },
+  "MN Samuels": {
+    "dismissedPlayer": "KV Sharma",
+    "numberOfdismissals": 1
+  },
+  "Z Khan": {
+    "dismissedPlayer": "DE Bollinger",
+    "numberOfdismissals": 2
+  },
+  "Swapnil Singh": {
+    "dismissedPlayer": "CR Woakes",
+    "numberOfdismissals": 1
+  },
+  "P Kumar": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 3
+  },
+  "MM Patel": {
+    "dismissedPlayer": "A Kumble",
+    "numberOfdismissals": 2
+  },
+  "SS Tiwary": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 2
+  },
+  "R Tewatia": {
+    "dismissedPlayer": "SN Thakur",
+    "numberOfdismissals": 1
+  },
+  "A Mishra": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 2
+  },
+  "CJ Jordan": {
+    "dismissedPlayer": "NM Coulter-Nile",
+    "numberOfdismissals": 1
+  },
+  "IR Jaggi": {
+    "dismissedPlayer": "KV Sharma",
+    "numberOfdismissals": 1
+  },
+  "PP Chawla": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 3
+  },
+  "AS Rajpoot": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "Washington Sundar": {
+    "dismissedPlayer": "MG Johnson",
+    "numberOfdismissals": 1
+  },
+  "SC Ganguly": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 4
+  },
+  "RT Ponting": {
+    "dismissedPlayer": "JH Kallis",
+    "numberOfdismissals": 1
+  },
+  "DJ Hussey": {
+    "dismissedPlayer": "SK Trivedi",
+    "numberOfdismissals": 4
+  },
+  "R Dravid": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 4
+  },
+  "JH Kallis": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 4
+  },
+  "W Jaffer": {
+    "dismissedPlayer": "AB Dinda",
+    "numberOfdismissals": 1
+  },
+  "MV Boucher": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 2
+  },
+  "B Akhil": {
+    "dismissedPlayer": "AB Agarkar",
+    "numberOfdismissals": 1
+  },
+  "CL White": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 2
+  },
+  "AA Noffke": {
+    "dismissedPlayer": "SC Ganguly",
+    "numberOfdismissals": 1
+  },
+  "SB Joshi": {
+    "dismissedPlayer": "LR Shukla",
+    "numberOfdismissals": 1
+  },
+  "ML Hayden": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 2
+  },
+  "JDP Oram": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 2
+  },
+  "K Goel": {
+    "dismissedPlayer": "MS Gony",
+    "numberOfdismissals": 2
+  },
+  "JR Hopes": {
+    "dismissedPlayer": "P Amarnath",
+    "numberOfdismissals": 1
+  },
+  "KC Sangakkara": {
+    "dismissedPlayer": "R Sharma",
+    "numberOfdismissals": 5
+  },
+  "T Kohli": {
+    "dismissedPlayer": "GD McGrath",
+    "numberOfdismissals": 1
+  },
+  "DS Lehmann": {
+    "dismissedPlayer": "MF Maharoof",
+    "numberOfdismissals": 1
+  },
+  "M Kaif": {
+    "dismissedPlayer": "S Sreesanth",
+    "numberOfdismissals": 2
+  },
+  "M Rawat": {
+    "dismissedPlayer": "R Bhatia",
+    "numberOfdismissals": 1
+  },
+  "SK Warne": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 3
+  },
+  "V Sehwag": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 3
+  },
+  "L Ronchi": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "DJ Thornely": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "ST Jayasuriya": {
+    "dismissedPlayer": "B Lee",
+    "numberOfdismissals": 2
+  },
+  "PR Shah": {
+    "dismissedPlayer": "B Akhil",
+    "numberOfdismissals": 1
+  },
+  "AM Nayar": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 2
+  },
+  "SM Pollock": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "S Chanderpaul": {
+    "dismissedPlayer": "DS Kulkarni",
+    "numberOfdismissals": 1
+  },
+  "LRPL Taylor": {
+    "dismissedPlayer": "PP Ojha",
+    "numberOfdismissals": 3
+  },
+  "Y Venugopal Rao": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 3
+  },
+  "VVS Laxman": {
+    "dismissedPlayer": "AB Dinda",
+    "numberOfdismissals": 2
+  },
+  "AC Gilchrist": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 4
+  },
+  "SB Styris": {
+    "dismissedPlayer": "Mohammad Hafeez",
+    "numberOfdismissals": 1
+  },
+  "AS Yadav": {
+    "dismissedPlayer": "DJ Hussey",
+    "numberOfdismissals": 1
+  },
+  "A Symonds": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 3
+  },
+  "WPUJC Vaas": {
+    "dismissedPlayer": "AB Agarkar",
+    "numberOfdismissals": 1
+  },
+  "SB Bangar": {
+    "dismissedPlayer": "M Kartik",
+    "numberOfdismissals": 1
+  },
+  "PP Ojha": {
+    "dismissedPlayer": "SK Raina",
+    "numberOfdismissals": 2
+  },
+  "Mohammad Hafeez": {
+    "dismissedPlayer": "PP Ojha",
+    "numberOfdismissals": 1
+  },
+  "DPMD Jayawardene": {
+    "dismissedPlayer": "M Muralitharan",
+    "numberOfdismissals": 3
+  },
+  "B Lee": {
+    "dismissedPlayer": "SK Trivedi",
+    "numberOfdismissals": 1
+  },
+  "S Sohal": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 2
+  },
+  "Kamran Akmal": {
+    "dismissedPlayer": "JR Hopes",
+    "numberOfdismissals": 1
+  },
+  "Shahid Afridi": {
+    "dismissedPlayer": "R Bhatia",
+    "numberOfdismissals": 1
+  },
+  "MEK Hussey": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 4
+  },
+  "DJ Bravo": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 3
+  },
+  "MA Khote": {
+    "dismissedPlayer": "M Muralitharan",
+    "numberOfdismissals": 1
+  },
+  "GC Smith": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 2
+  },
+  "D Salunkhe": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 1
+  },
+  "RR Sarwan": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 1
+  },
+  "S Sreesanth": {
+    "dismissedPlayer": "DS Kulkarni",
+    "numberOfdismissals": 1
+  },
+  "VRV Singh": {
+    "dismissedPlayer": "DS Kulkarni",
+    "numberOfdismissals": 1
+  },
+  "AB Agarkar": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 2
+  },
+  "M Kartik": {
+    "dismissedPlayer": "L Balaji",
+    "numberOfdismissals": 2
+  },
+  "LR Shukla": {
+    "dismissedPlayer": "VRV Singh",
+    "numberOfdismissals": 2
+  },
+  "Shoaib Malik": {
+    "dismissedPlayer": "VRV Singh",
+    "numberOfdismissals": 1
+  },
+  "MF Maharoof": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "SM Katich": {
+    "dismissedPlayer": "R Bhatia",
+    "numberOfdismissals": 1
+  },
+  "TM Srivastava": {
+    "dismissedPlayer": "VY Mahesh",
+    "numberOfdismissals": 1
+  },
+  "B Chipli": {
+    "dismissedPlayer": "MS Gony",
+    "numberOfdismissals": 1
+  },
+  "DW Steyn": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 2
+  },
+  "DB Das": {
+    "dismissedPlayer": "Sohail Tanvir",
+    "numberOfdismissals": 2
+  },
+  "HH Gibbs": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 3
+  },
+  "DNT Zoysa": {
+    "dismissedPlayer": "S Sreesanth",
+    "numberOfdismissals": 1
+  },
+  "D Kalyankrishna": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "SA Asnodkar": {
+    "dismissedPlayer": "JA Morkel",
+    "numberOfdismissals": 2
+  },
+  "Salman Butt": {
+    "dismissedPlayer": "Sohail Tanvir",
+    "numberOfdismissals": 1
+  },
+  "BJ Hodge": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 2
+  },
+  "Umar Gul": {
+    "dismissedPlayer": "Sohail Tanvir",
+    "numberOfdismissals": 2
+  },
+  "SP Fleming": {
+    "dismissedPlayer": "VY Mahesh",
+    "numberOfdismissals": 1
+  },
+  "S Vidyut": {
+    "dismissedPlayer": "GD McGrath",
+    "numberOfdismissals": 1
+  },
+  "JA Morkel": {
+    "dismissedPlayer": "PP Ojha",
+    "numberOfdismissals": 3
+  },
+  "LPC Silva": {
+    "dismissedPlayer": "V Kohli",
+    "numberOfdismissals": 1
+  },
+  "DB Ravi Teja": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 3
+  },
+  "RP Singh": {
+    "dismissedPlayer": "DW Steyn",
+    "numberOfdismissals": 2
+  },
+  "Misbah-ul-Haq": {
+    "dismissedPlayer": "DB Ravi Teja",
+    "numberOfdismissals": 1
+  },
+  "YV Takawale": {
+    "dismissedPlayer": "VY Mahesh",
+    "numberOfdismissals": 1
+  },
+  "Mohammad Asif": {
+    "dismissedPlayer": "DS Kulkarni",
+    "numberOfdismissals": 1
+  },
+  "GD McGrath": {
+    "dismissedPlayer": "DS Kulkarni",
+    "numberOfdismissals": 1
+  },
+  "S Badrinath": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 3
+  },
+  "Joginder Sharma": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 1
+  },
+  "M Muralitharan": {
+    "dismissedPlayer": "Sohail Tanvir",
+    "numberOfdismissals": 1
+  },
+  "M Ntini": {
+    "dismissedPlayer": "Sohail Tanvir",
+    "numberOfdismissals": 1
+  },
+  "DT Patil": {
+    "dismissedPlayer": "VRV Singh",
+    "numberOfdismissals": 1
+  },
+  "A Kumble": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "S Anirudha": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 1
+  },
+  "Sohail Tanvir": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 1
+  },
+  "SK Trivedi": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 1
+  },
+  "CK Kapugedera": {
+    "dismissedPlayer": "VY Mahesh",
+    "numberOfdismissals": 1
+  },
+  "A Chopra": {
+    "dismissedPlayer": "DW Steyn",
+    "numberOfdismissals": 1
+  },
+  "T Taibu": {
+    "dismissedPlayer": "DW Steyn",
+    "numberOfdismissals": 1
+  },
+  "J Arunkumar": {
+    "dismissedPlayer": "Umar Gul",
+    "numberOfdismissals": 1
+  },
+  "SP Goswami": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 2
+  },
+  "R Vinay Kumar": {
+    "dismissedPlayer": "A Singh",
+    "numberOfdismissals": 3
+  },
+  "AD Mascarenhas": {
+    "dismissedPlayer": "R Bhatia",
+    "numberOfdismissals": 2
+  },
+  "TM Dilshan": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 3
+  },
+  "VY Mahesh": {
+    "dismissedPlayer": "LR Shukla",
+    "numberOfdismissals": 1
+  },
+  "SR Tendulkar": {
+    "dismissedPlayer": "RP Singh",
+    "numberOfdismissals": 3
+  },
+  "Younis Khan": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "Niraj Patel": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 1
+  },
+  "Shoaib Akhtar": {
+    "dismissedPlayer": "RR Raje",
+    "numberOfdismissals": 1
+  },
+  "H Das": {
+    "dismissedPlayer": "CRD Fernando",
+    "numberOfdismissals": 1
+  },
+  "SD Chitnis": {
+    "dismissedPlayer": "VRV Singh",
+    "numberOfdismissals": 1
+  },
+  "A Nehra": {
+    "dismissedPlayer": "VRV Singh",
+    "numberOfdismissals": 1
+  },
+  "VS Yeligati": {
+    "dismissedPlayer": "VRV Singh",
+    "numberOfdismissals": 1
+  },
+  "MS Gony": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 1
+  },
+  "L Balaji": {
+    "dismissedPlayer": "DW Steyn",
+    "numberOfdismissals": 1
+  },
+  "LA Pomersbach": {
+    "dismissedPlayer": "PP Ojha",
+    "numberOfdismissals": 1
+  },
+  "A Nel": {
+    "dismissedPlayer": "VY Mahesh",
+    "numberOfdismissals": 1
+  },
+  "A Mukund": {
+    "dismissedPlayer": "Sohail Tanvir",
+    "numberOfdismissals": 1
+  },
+  "WA Mota": {
+    "dismissedPlayer": "TL Suman",
+    "numberOfdismissals": 2
+  },
+  "JP Duminy": {
+    "dismissedPlayer": "DP Nannes",
+    "numberOfdismissals": 2
+  },
+  "A Flintoff": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 1
+  },
+  "JD Ryder": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 2
+  },
+  "KP Pietersen": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 3
+  },
+  "T Henderson": {
+    "dismissedPlayer": "JD Ryder",
+    "numberOfdismissals": 1
+  },
+  "Kamran Khan": {
+    "dismissedPlayer": "A Kumble",
+    "numberOfdismissals": 1
+  },
+  "RS Bopara": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 2
+  },
+  "R Bishnoi": {
+    "dismissedPlayer": "M Muralitharan",
+    "numberOfdismissals": 1
+  },
+  "PC Valthaty": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 2
+  },
+  "RJ Quiney": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 2
+  },
+  "Yashpal Singh": {
+    "dismissedPlayer": "SK Warne",
+    "numberOfdismissals": 1
+  },
+  "Pankaj Singh": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "FH Edwards": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "AS Raut": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 1
+  },
+  "AN Ghosh": {
+    "dismissedPlayer": "AM Nayar",
+    "numberOfdismissals": 1
+  },
+  "BAW Mendis": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "DL Vettori": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 1
+  },
+  "RE van der Merwe": {
+    "dismissedPlayer": "I Sharma",
+    "numberOfdismissals": 1
+  },
+  "RR Powar": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 1
+  },
+  "AA Bilakhia": {
+    "dismissedPlayer": "DL Vettori",
+    "numberOfdismissals": 1
+  },
+  "TL Suman": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 3
+  },
+  "Shoaib Ahmed": {
+    "dismissedPlayer": "DP Nannes",
+    "numberOfdismissals": 1
+  },
+  "GR Napier": {
+    "dismissedPlayer": "CH Gayle",
+    "numberOfdismissals": 1
+  },
+  "MN van Wyk": {
+    "dismissedPlayer": "GR Napier",
+    "numberOfdismissals": 1
+  },
+  "LA Carseldine": {
+    "dismissedPlayer": "Y Venugopal Rao",
+    "numberOfdismissals": 1
+  },
+  "M Vijay": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 4
+  },
+  "SB Jakati": {
+    "dismissedPlayer": "DP Nannes",
+    "numberOfdismissals": 1
+  },
+  "M Manhas": {
+    "dismissedPlayer": "R Sharma",
+    "numberOfdismissals": 2
+  },
+  "RJ Harris": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 2
+  },
+  "D du Preez": {
+    "dismissedPlayer": "A Singh",
+    "numberOfdismissals": 1
+  },
+  "RR Raje": {
+    "dismissedPlayer": "R Bhatia",
+    "numberOfdismissals": 1
+  },
+  "M Morkel": {
+    "dismissedPlayer": "SP Narine",
+    "numberOfdismissals": 2
+  },
+  "S Tyagi": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 1
+  },
+  "C Nanda": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 1
+  },
+  "SL Malinga": {
+    "dismissedPlayer": "WD Parnell",
+    "numberOfdismissals": 2
+  },
+  "J Botha": {
+    "dismissedPlayer": "Anand Rajan",
+    "numberOfdismissals": 2
+  },
+  "A Singh": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 1
+  },
+  "GJ Bailey": {
+    "dismissedPlayer": "MC Henriques",
+    "numberOfdismissals": 3
+  },
+  "AB McDonald": {
+    "dismissedPlayer": "A Kumble",
+    "numberOfdismissals": 1
+  },
+  "Y Nagar": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 2
+  },
+  "SS Shaikh": {
+    "dismissedPlayer": "J Botha",
+    "numberOfdismissals": 1
+  },
+  "R Ashwin": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 3
+  },
+  "T Thushara": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "Mohammad Ashraful": {
+    "dismissedPlayer": "PJ Sangwan",
+    "numberOfdismissals": 1
+  },
+  "CA Pujara": {
+    "dismissedPlayer": "JH Kallis",
+    "numberOfdismissals": 2
+  },
+  "Anirudh Singh": {
+    "dismissedPlayer": "LR Shukla",
+    "numberOfdismissals": 1
+  },
+  "R Sathish": {
+    "dismissedPlayer": "JA Morkel",
+    "numberOfdismissals": 2
+  },
+  "AA Jhunjhunwala": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "P Dogra": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "A Uniyal": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "MS Bisla": {
+    "dismissedPlayer": "JA Morkel",
+    "numberOfdismissals": 2
+  },
+  "JM Kemp": {
+    "dismissedPlayer": "PP Ojha",
+    "numberOfdismissals": 1
+  },
+  "OA Shah": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 2
+  },
+  "RS Gavaskar": {
+    "dismissedPlayer": "JM Kemp",
+    "numberOfdismissals": 1
+  },
+  "SE Bond": {
+    "dismissedPlayer": "R Ashwin",
+    "numberOfdismissals": 1
+  },
+  "DP Nannes": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 1
+  },
+  "MJ Lumb": {
+    "dismissedPlayer": "JA Morkel",
+    "numberOfdismissals": 2
+  },
+  "DR Martyn": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 1
+  },
+  "S Narwal": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 1
+  },
+  "AB Barath": {
+    "dismissedPlayer": "PP Ojha",
+    "numberOfdismissals": 1
+  },
+  "FY Fazal": {
+    "dismissedPlayer": "SE Bond",
+    "numberOfdismissals": 1
+  },
+  "MD Mishra": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 2
+  },
+  "S Ladda": {
+    "dismissedPlayer": "WPUJC Vaas",
+    "numberOfdismissals": 1
+  },
+  "J Theron": {
+    "dismissedPlayer": "L Balaji",
+    "numberOfdismissals": 1
+  },
+  "SJ Srivastava": {
+    "dismissedPlayer": "SW Tait",
+    "numberOfdismissals": 1
+  },
+  "R Sharma": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 2
+  },
+  "AC Voges": {
+    "dismissedPlayer": "JA Morkel",
+    "numberOfdismissals": 1
+  },
+  "Jaskaran Singh": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 1
+  },
+  "KAJ Roach": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "PD Collingwood": {
+    "dismissedPlayer": "CK Langeveldt",
+    "numberOfdismissals": 1
+  },
+  "CK Langeveldt": {
+    "dismissedPlayer": "AB McDonald",
+    "numberOfdismissals": 1
+  },
+  "VS Malik": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "SW Tait": {
+    "dismissedPlayer": "V Sehwag",
+    "numberOfdismissals": 1
+  },
+  "A Mithun": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 1
+  },
+  "AP Dole": {
+    "dismissedPlayer": "RJ Harris",
+    "numberOfdismissals": 1
+  },
+  "Harmeet Singh": {
+    "dismissedPlayer": "SK Trivedi",
+    "numberOfdismissals": 1
+  },
+  "R McLaren": {
+    "dismissedPlayer": "R Ashwin",
+    "numberOfdismissals": 1
+  },
+  "S Sriram": {
+    "dismissedPlayer": "AB Dinda",
+    "numberOfdismissals": 1
+  },
+  "KP Appanna": {
+    "dismissedPlayer": "RJ Harris",
+    "numberOfdismissals": 1
+  },
+  "C Madan": {
+    "dismissedPlayer": "AB McDonald",
+    "numberOfdismissals": 1
+  },
+  "AG Paunikar": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 1
+  },
+  "MR Marsh": {
+    "dismissedPlayer": "Yuvraj Singh",
+    "numberOfdismissals": 1
+  },
+  "B Sumanth": {
+    "dismissedPlayer": "DE Bollinger",
+    "numberOfdismissals": 1
+  },
+  "RV Gomez": {
+    "dismissedPlayer": "DP Nannes",
+    "numberOfdismissals": 1
+  },
+  "UBT Chand": {
+    "dismissedPlayer": "B Lee",
+    "numberOfdismissals": 2
+  },
+  "UT Yadav": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 1
+  },
+  "DJ Jacobs": {
+    "dismissedPlayer": "M Morkel",
+    "numberOfdismissals": 1
+  },
+  "Sunny Singh": {
+    "dismissedPlayer": "M Kartik",
+    "numberOfdismissals": 1
+  },
+  "AL Menaria": {
+    "dismissedPlayer": "YK Pathan",
+    "numberOfdismissals": 2
+  },
+  "AUK Pathan": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "WD Parnell": {
+    "dismissedPlayer": "SP Narine",
+    "numberOfdismissals": 2
+  },
+  "JJ van der Wath": {
+    "dismissedPlayer": "DW Steyn",
+    "numberOfdismissals": 1
+  },
+  "R Ninan": {
+    "dismissedPlayer": "DT Christian",
+    "numberOfdismissals": 1
+  },
+  "MS Wade": {
+    "dismissedPlayer": "R Sharma",
+    "numberOfdismissals": 1
+  },
+  "TD Paine": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 1
+  },
+  "SB Wagh": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "JEC Franklin": {
+    "dismissedPlayer": "SB Wagh",
+    "numberOfdismissals": 1
+  },
+  "Shakib Al Hasan": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 3
+  },
+  "S Randiv": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "BJ Haddin": {
+    "dismissedPlayer": "J Syed Mohammad",
+    "numberOfdismissals": 1
+  },
+  "NLTC Perera": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 2
+  },
+  "JE Taylor": {
+    "dismissedPlayer": "DE Bollinger",
+    "numberOfdismissals": 1
+  },
+  "NL McCullum": {
+    "dismissedPlayer": "DE Bollinger",
+    "numberOfdismissals": 1
+  },
+  "RN ten Doeschate": {
+    "dismissedPlayer": "M Morkel",
+    "numberOfdismissals": 1
+  },
+  "TR Birt": {
+    "dismissedPlayer": "YK Pathan",
+    "numberOfdismissals": 1
+  },
+  "M Klinger": {
+    "dismissedPlayer": "M Morkel",
+    "numberOfdismissals": 1
+  },
+  "Harpreet Singh": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 1
+  },
+  "AC Blizzard": {
+    "dismissedPlayer": "AC Thomas",
+    "numberOfdismissals": 1
+  },
+  "CA Ingram": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "DH Yagnik": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 2
+  },
+  "KB Arun Karthik": {
+    "dismissedPlayer": "Iqbal Abdulla",
+    "numberOfdismissals": 1
+  },
+  "AA Chavan": {
+    "dismissedPlayer": "BJ Hodge",
+    "numberOfdismissals": 1
+  },
+  "ND Doshi": {
+    "dismissedPlayer": "P Parameswaran",
+    "numberOfdismissals": 1
+  },
+  "CJ Ferguson": {
+    "dismissedPlayer": "JP Duminy",
+    "numberOfdismissals": 1
+  },
+  "Y Gnaneswara Rao": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 1
+  },
+  "S Rana": {
+    "dismissedPlayer": "L Balaji",
+    "numberOfdismissals": 1
+  },
+  "BA Bhatt": {
+    "dismissedPlayer": "Anand Rajan",
+    "numberOfdismissals": 1
+  },
+  "DE Bollinger": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "RE Levi": {
+    "dismissedPlayer": "DW Steyn",
+    "numberOfdismissals": 2
+  },
+  "HV Patel": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 2
+  },
+  "DJ Harris": {
+    "dismissedPlayer": "DE Bollinger",
+    "numberOfdismissals": 1
+  },
+  "KK Cooper": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 1
+  },
+  "GB Hogg": {
+    "dismissedPlayer": "MM Patel",
+    "numberOfdismissals": 1
+  },
+  "RR Bhatkal": {
+    "dismissedPlayer": "DE Bollinger",
+    "numberOfdismissals": 1
+  },
+  "CJ McKay": {
+    "dismissedPlayer": "IK Pathan",
+    "numberOfdismissals": 1
+  },
+  "N Saini": {
+    "dismissedPlayer": "Z Khan",
+    "numberOfdismissals": 1
+  },
+  "Azhar Mahmood": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 2
+  },
+  "AC Thomas": {
+    "dismissedPlayer": "MS Gony",
+    "numberOfdismissals": 1
+  },
+  "RJ Peterson": {
+    "dismissedPlayer": "M Morkel",
+    "numberOfdismissals": 1
+  },
+  "A Ashish Reddy": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 2
+  },
+  "V Pratap Singh": {
+    "dismissedPlayer": "SL Malinga",
+    "numberOfdismissals": 1
+  },
+  "MJ Clarke": {
+    "dismissedPlayer": "V Pratap Singh",
+    "numberOfdismissals": 1
+  },
+  "Gurkeerat Singh": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 2
+  },
+  "AP Majumdar": {
+    "dismissedPlayer": "J Botha",
+    "numberOfdismissals": 1
+  },
+  "PA Reddy": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 1
+  },
+  "AD Russell": {
+    "dismissedPlayer": "P Parameswaran",
+    "numberOfdismissals": 1
+  },
+  "Sunny Gupta": {
+    "dismissedPlayer": "SB Jakati",
+    "numberOfdismissals": 1
+  },
+  "MC Juneja": {
+    "dismissedPlayer": "L Balaji",
+    "numberOfdismissals": 1
+  },
+  "GH Vihari": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 2
+  },
+  "MDKJ Perera": {
+    "dismissedPlayer": "UT Yadav",
+    "numberOfdismissals": 1
+  },
+  "B Laughlin": {
+    "dismissedPlayer": "KA Pollard",
+    "numberOfdismissals": 1
+  },
+  "BMAJ Mendis": {
+    "dismissedPlayer": "KA Pollard",
+    "numberOfdismissals": 1
+  },
+  "R Rampaul": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 1
+  },
+  "P Awana": {
+    "dismissedPlayer": "JP Faulkner",
+    "numberOfdismissals": 1
+  },
+  "SMSM Senanayake": {
+    "dismissedPlayer": "P Kumar",
+    "numberOfdismissals": 1
+  },
+  "BJ Rohrer": {
+    "dismissedPlayer": "JD Unadkat",
+    "numberOfdismissals": 1
+  },
+  "KL Rahul": {
+    "dismissedPlayer": "DS Kulkarni",
+    "numberOfdismissals": 3
+  },
+  "J Syed Mohammad": {
+    "dismissedPlayer": "UT Yadav",
+    "numberOfdismissals": 1
+  },
+  "Q de Kock": {
+    "dismissedPlayer": "AB Dinda",
+    "numberOfdismissals": 2
+  },
+  "BB Samantray": {
+    "dismissedPlayer": "JP Faulkner",
+    "numberOfdismissals": 2
+  },
+  "R Dhawan": {
+    "dismissedPlayer": "STR Binny",
+    "numberOfdismissals": 1
+  },
+  "MG Johnson": {
+    "dismissedPlayer": "JP Faulkner",
+    "numberOfdismissals": 3
+  },
+  "LJ Wright": {
+    "dismissedPlayer": "Azhar Mahmood",
+    "numberOfdismissals": 1
+  },
+  "AG Murtaza": {
+    "dismissedPlayer": "CH Gayle",
+    "numberOfdismissals": 1
+  },
+  "IC Pandey": {
+    "dismissedPlayer": "CH Gayle",
+    "numberOfdismissals": 1
+  },
+  "X Thalaivan Sargunam": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 1
+  },
+  "DJG Sammy": {
+    "dismissedPlayer": "JP Faulkner",
+    "numberOfdismissals": 2
+  },
+  "KW Richardson": {
+    "dismissedPlayer": "CH Morris",
+    "numberOfdismissals": 1
+  },
+  "CM Gautam": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 1
+  },
+  "UA Birla": {
+    "dismissedPlayer": "Iqbal Abdulla",
+    "numberOfdismissals": 1
+  },
+  "Parvez Rasool": {
+    "dismissedPlayer": "L Balaji",
+    "numberOfdismissals": 1
+  },
+  "NJ Maddinson": {
+    "dismissedPlayer": "Mohammed Shami",
+    "numberOfdismissals": 1
+  },
+  "JDS Neesham": {
+    "dismissedPlayer": "PP Chawla",
+    "numberOfdismissals": 1
+  },
+  "PV Tambe": {
+    "dismissedPlayer": "R Ashwin",
+    "numberOfdismissals": 1
+  },
+  "MA Starc": {
+    "dismissedPlayer": "R Bhatia",
+    "numberOfdismissals": 1
+  },
+  "BR Dunk": {
+    "dismissedPlayer": "DJG Sammy",
+    "numberOfdismissals": 1
+  },
+  "RR Rossouw": {
+    "dismissedPlayer": "A Nehra",
+    "numberOfdismissals": 2
+  },
+  "Shivam Sharma": {
+    "dismissedPlayer": "MA Starc",
+    "numberOfdismissals": 1
+  },
+  "VH Zol": {
+    "dismissedPlayer": "R Tewatia",
+    "numberOfdismissals": 1
+  },
+  "Imran Tahir": {
+    "dismissedPlayer": "STR Binny",
+    "numberOfdismissals": 1
+  },
+  "R Shukla": {
+    "dismissedPlayer": "KK Cooper",
+    "numberOfdismissals": 1
+  },
+  "BE Hendricks": {
+    "dismissedPlayer": "JJ Bumrah",
+    "numberOfdismissals": 1
+  },
+  "M de Lange": {
+    "dismissedPlayer": "Imran Tahir",
+    "numberOfdismissals": 1
+  },
+  "S Gopal": {
+    "dismissedPlayer": "WD Parnell",
+    "numberOfdismissals": 1
+  },
+  "JO Holder": {
+    "dismissedPlayer": "R Vinay Kumar",
+    "numberOfdismissals": 1
+  },
+  "JD Unadkat": {
+    "dismissedPlayer": "MG Johnson",
+    "numberOfdismissals": 1
+  },
+  "SA Abbott": {
+    "dismissedPlayer": "Shakib Al Hasan",
+    "numberOfdismissals": 1
+  },
+  "AN Ahmed": {
+    "dismissedPlayer": "B Kumar",
+    "numberOfdismissals": 1
+  },
+  "Iqbal Abdulla": {
+    "dismissedPlayer": "KA Pollard",
+    "numberOfdismissals": 1
+  },
+  "SN Khan": {
+    "dismissedPlayer": "RA Jadeja",
+    "numberOfdismissals": 1
+  },
+  "D Wiese": {
+    "dismissedPlayer": "DJ Bravo",
+    "numberOfdismissals": 2
+  },
+  "DJ Muthuswami": {
+    "dismissedPlayer": "D Wiese",
+    "numberOfdismissals": 1
+  },
+  "Karanveer Singh": {
+    "dismissedPlayer": "MA Starc",
+    "numberOfdismissals": 1
+  },
+  "Sandeep Sharma": {
+    "dismissedPlayer": "YS Chahal",
+    "numberOfdismissals": 1
+  },
+  "J Suchith": {
+    "dismissedPlayer": "YS Chahal",
+    "numberOfdismissals": 1
+  },
+  "C Munro": {
+    "dismissedPlayer": "JJ Bumrah",
+    "numberOfdismissals": 1
+  },
+  "P Sahu": {
+    "dismissedPlayer": "UT Yadav",
+    "numberOfdismissals": 1
+  },
+  "M Ashwin": {
+    "dismissedPlayer": "KW Richardson",
+    "numberOfdismissals": 1
+  },
+  "NS Naik": {
+    "dismissedPlayer": "Mustafizur Rahman",
+    "numberOfdismissals": 1
+  },
+  "PSP Handscomb": {
+    "dismissedPlayer": "Harbhajan Singh",
+    "numberOfdismissals": 1
+  },
+  "J Yadav": {
+    "dismissedPlayer": "R Ashwin",
+    "numberOfdismissals": 1
+  },
+  "UT Khawaja": {
+    "dismissedPlayer": "A Mishra",
+    "numberOfdismissals": 1
+  },
+  "S Kaushik": {
+    "dismissedPlayer": "Sachin Baby",
+    "numberOfdismissals": 1
+  },
+  "F Behardien": {
+    "dismissedPlayer": "YS Chahal",
+    "numberOfdismissals": 1
+  },
+  "KJ Abbott": {
+    "dismissedPlayer": "YS Chahal",
+    "numberOfdismissals": 1
+  },
+  "ER Dwivedi": {
+    "dismissedPlayer": "SR Watson",
+    "numberOfdismissals": 1
   }
-]
+}

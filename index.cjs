@@ -1,6 +1,7 @@
 const fs = require("fs");
 const csv = require('csvtojson')
 const path = require("path")
+const express = require("express");
 
 const matches = './src/data/matches.csv'
 const deliveries = './src/data/deliveries.csv'
@@ -118,3 +119,48 @@ csv()
 
       })
   })
+
+
+const app = express();
+const port = process.env.PORT || 5000;
+
+app.get('/', (req, res) => {
+  let AllFiles = {
+    problem1: "1-matches-per-year.cjs",
+    problem2: "2-matches-won-per-team-per-year.cjs",
+    problem3: "3-extra-runs-conceded-per-team-in-the-year.cjs",
+    problem4: "4-top-10-economical-bowlers-in-the-year.json",
+    problem5: "5-team-won-toss-and-also-match.json",
+    problem6: "6-player-won-highest-number-of-Player-of-Match-awards-by-season.json",
+    problem7: "7-batsman-strike-rate-by-season.json",
+    problem8: "8-most-dismissed-player-by-another-player.json",
+    problem9: "9-best-economy-in-super-overs.json"
+  }
+  res.send(AllFiles)
+})
+
+
+app.get('/:name', (req, res) => {
+  let route = req.params.name
+  let filePaths = {
+    problem1: problem1Output,
+    problem2: problem2Output,
+    problem3: problem3Output,
+    problem4: problem4Output,
+    problem5: problem5Output,
+    problem6: problem6Output,
+    problem7: problem7Output,
+    problem8: problem8Output,
+    problem9: problem9Output
+  }
+  if (filePaths[route]) {
+    res.sendFile(filePaths[route])
+  } else {
+    res.status(400)
+    res.send("404 Error")
+  }
+})
+
+app.listen(port, () => {
+  console.log(`Running on ${port}...`);
+});

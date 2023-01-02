@@ -137,7 +137,6 @@ app.get('/', (req, res) => {
     "problem8": "8-most-dismissed-player-by-another-player.json",
     "problem9": "9-best-economy-in-super-overs.json"
   }
-  
   res.send(AllFiles)
 })
 

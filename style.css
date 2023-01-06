@@ -22,7 +22,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* width: 60%; */
   margin: 0 10%;
   margin-top: 4%;
 }
@@ -92,17 +91,17 @@ button:hover {
   color: hsl(237, 57%, 67%);
 }
 
-/* @media (max-width: 1100px) {
-  .block {
-    width: 700px;
+@media (max-width: 1100px) {
+  header {
+    flex-direction: column;
+  }
+  footer {
+    display: none;
+  }
+  .box {
+    width: 100%;
   }
 }
-
-@media (max-width: 800px) {
-  .block {
-    width: 500px;
-  }
-} */
 
 .signUpPage {
   box-sizing: border-box;
@@ -134,7 +133,6 @@ button:hover {
 }
 
 .input {
-  /* width: 2rem; */
   width: 100%;
 }
 .conditions {
@@ -146,10 +144,6 @@ button:hover {
 .inputBox {
   width: 60%;
   margin-bottom: 10px;
-  /* padding: 4rem 8rem; */
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .signupButton button {
   background: none;

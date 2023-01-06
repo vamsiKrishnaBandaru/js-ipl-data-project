@@ -165,7 +165,3 @@ button:hover {
   background-color: hsl(237, 38%, 55%);
   color: white;
 }
-
-footer {
-  transform: translateY(-50%);
-}

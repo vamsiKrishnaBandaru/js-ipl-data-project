@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700&display=swap");
 
+html{
+  /* 10/16*100 */
+  font-size: 62.5%;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Montserrat", sans-serif;
   background: url(images/player.png),
     linear-gradient(to right, hsl(240, 10%, 84%), hsl(237, 68%, 65%));
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 25%, auto;
+  background: linear-gradient(to right, hsl(240, 10%, 84%), hsl(237, 68%, 65%));
 }
 
 .container {
@@ -19,7 +26,6 @@ body {
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  min-height: 1040px;
 }
 
 .block {
@@ -27,24 +33,45 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 900px;
+  width: 60%;
+  /* border: 1px solid red; */
+  height: 700px;
+  margin-top: 4%;
 }
 
 header {
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  margin-bottom: 50px;
   color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4%;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 15px;
+  width: 10%;
+  text-align: center;
+  box-shadow: 0 50px 20px rgba(111, 133, 182, 0.13);
+  border: 1.5px solid white;
+  font-size: 22px;
+  cursor: pointer;
+  color: hsl(237, 38%, 55%);
+}
+button:hover {
+  color: white;
+  border-color: 1px white;
+  background: none;
 }
 
 .box {
   font-family: "Montserrat", sans-serif;
-  border-radius: 10px;
-  width: 280px;
-  height: 160px;
-  margin: 10px;
-  padding: 80px;
+  border-radius: 15px;
+  height: 30%;
+  width: 30%;
+  margin: 17px;
+  padding: 40px;
   box-shadow: 0 50px 20px rgba(111, 133, 182, 0.13);
   border: 1.5px solid white;
   display: flex;
@@ -70,14 +97,70 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .block {
     width: 700px;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .block {
     width: 500px;
   }
+} */
+
+.signUpPage {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 15%;
+}
+.form {
+  background-color: white;
+  width: 50vw;
+  padding: 3rem;
+  /* height: 50vh; */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 20px 30px rgba(102, 112, 121, 0.2);
+}
+
+.title {
+  font-size: 30px;
+}
+
+.input{
+  /* width: 2rem; */
+  width: 100%;
+}
+
+::placeholder{
+  /* padding: 5rem; */
+}
+
+.inputBox{
+  width: 100%;;
+  /* padding: 4rem 8rem; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.signupButton button {
+  background: none;
+  border: 1px solid hsl(237, 38%, 55%);
+  width: 100%;
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 10px;
 }

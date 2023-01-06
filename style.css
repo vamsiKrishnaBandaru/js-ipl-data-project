@@ -119,9 +119,7 @@ button:hover {
 }
 .form {
   background-color: white;
-  width: 35vw;
   padding: 3rem;
-  /* height: 50vh; */
   border-radius: 8px;
   display: flex;
   flex-direction: column;
